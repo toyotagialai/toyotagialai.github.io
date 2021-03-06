@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Tổng quan",
+        "image": "/Content/images/detail_icon_s_menu_01.png",
+        "sec": "sec_dt_01"
+    },
+    {
+        "title": "Thư viện",
+        "image": "/Content/images/detail_icon_s_menu_04.png",
+        "sec": "sec_dt_03"
+    },
+    {
+        "title": "Ngoại thất",
+        "image": "/Content/images/detail_icon_s_menu_02.png",
+        "sec": "sec_dt_04"
+    },
+    {
+        "title": "Nội thất",
+        "image": "/Content/images/detail_icon_s_menu_03.png",
+        "sec": "sec_dt_05"
+    },
+    {
+        "title": "Tính năng",
+        "image": "/Content/images/detail_icon_s_menu_05.png",
+        "sec": "sec_dt_06"
+    },
+    {
+        "title": "Phụ kiện",
+        "image": "/Content/images/detail_icon_s_menu_09.png",
+        "sec": "sec_dt_09"
+    },
+    {
+        "title": "Thông số kỹ thuật",
+        "image": "/Content/images/detail_icon_s_menu_06.png",
+        "sec": "sec_dt_07"
+    },
+    {
+        "title": "Tải catalogue",
+        "image": "/Content/images/detail_icon_s_menu_08.png",
+        "sec": "sec_dt_08"
+    }
+]

@@ -1,0 +1,877 @@
+---
+layout: default
+{% comment %}
+permalink: dang-ky-dich-vu
+{% endcomment %}
+---
+<style>
+    .picker__wrap {
+        width: 101% !important;
+    }
+
+    .picker__calendar-container {
+        padding: 0 !important;
+    }
+
+    .isMobile .tool_icon_right {
+        display: none !important;
+    }
+</style>
+
+<div class="page-ct">
+    <div id="banner02">
+        <div class="page_title">
+            <div class="target target2">
+                <div class="container">
+                    <h2 class="right-align">Đặt lịch hẹn dịch vụ</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form id="SeviceRegisterInToolsMain" method="post" class="ng-pristine ng-valid" novalidate="novalidate">
+        <input type="hidden" value="0" id="hdfDealerId">
+        <div id="content">
+            <div class="container page_dangkydichvu tool_pg" style="position: relative">
+                <div class="dangkydichvu_tabs">
+                    <div class="tabs_lg">
+                        <ul class="tabs" style="width: 100%;">
+                            <li class="tab selectService complete1"><a class="active" href="#tab_dangkydichvu_01"><span></span></a></li>
+                            <li class="tab disabled complete2"><a class="" href="#tab_dangkydichvu_02"><span></span></a></li>
+                            <li class="tab disabled complete3"><a class="" href="#tab_dangkydichvu_03"><span></span></a></li>
+                            <li class="tab disabled complete"><a class="" href="#tab_dangkydichvu_04"><span></span></a></li>
+                        <div class="indicator" style="right: 829.5px; left: 0px;"></div><div class="indicator" style="right: 829.5px; left: 0px;"></div></ul>
+                    </div>
+                    <div id="tab_dangkydichvu_01" class="content-tab">
+                        <p class="btn_prev btn_prev_mb">
+                            <a onclick="history.go(-1);return true;">❮</a>
+                        </p>
+                        <div class="inner">
+                            <div class="heading_dt" data-text="01">
+                                <p class="txt1" data-text="Chọn dịch vụ">Bước 1</p>
+                                <p class="txt2">Chọn dịch vụ</p>
+
+                                <p class="btn_next btn_next_pc">
+                                    <a class="next_btn_1">Tiếp theo</a>
+                                </p>
+                            </div>
+                            <div class="content_tab">
+                                <div class="list-service">
+                                    <div class="row">
+                                        <div class="col s12 note">
+                                            <p>Quý khách vui lòng đặt hẹn trước 4 tiếng làm việc để được phục vụ tốt hơn.</p>
+                                            <p>
+                                                Trong trường hợp cần đặt hẹn gấp, vui lòng gọi đến
+                                                <strong>1800 1524</strong>
+                                                để được tư vấn và hỗ trợ.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <ul class="step1">
+                                        <li class="item" data-id="1">
+                                            <div class="inner">
+                                                <p class="sm_checkbox">
+                                                    <input class="chkCats" type="checkbox" data-name="Bảo hành" data-idcat="1" id="chkstep1_01">
+                                                    <label for="chkstep1_01" data-holderoriginal="
+                                                        
+                                                            
+                                                            Bảo hành
+                                                        
+                                                    ">
+                                                        <span>
+                                                            <span class="img"><img src="/Content/images/dangkydichvu_item_01.png"></span>
+                                                            <span class="txt">Bảo hành</span>
+                                                        </span>
+                                                    </label>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="item" data-id="2">
+                                            <div class="inner">
+                                                <p class="sm_checkbox">
+                                                    <input class="chkCats" type="checkbox" data-name="Bảo dưỡng" data-idcat="2" id="chkstep1_02">
+                                                    <label for="chkstep1_02" data-holderoriginal="
+                                                        
+                                                            
+                                                            Bảo dưỡng
+                                                        
+                                                    ">
+                                                        <span>
+                                                            <span class="img"><img src="/Content/images/dangkydichvu_item_02.png"></span>
+                                                            <span class="txt">Bảo dưỡng</span>
+                                                        </span>
+                                                    </label>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="item" data-id="3">
+                                            <div class="inner">
+                                                <p class="sm_checkbox">
+                                                    <input class="chkCats" type="checkbox" data-name="Sửa chữa chung" data-idcat="3" id="chkstep1_03">
+                                                    <label for="chkstep1_03" data-holderoriginal="
+                                                        
+                                                            
+                                                            Sửa chữa chung
+                                                        
+                                                    ">
+                                                        <span>
+                                                            <span class="img"><img src="/Content/images/dangkydichvu_item_03.png"></span>
+                                                            <span class="txt">Sửa chữa chung</span>
+                                                        </span>
+                                                    </label>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="item" data-id="4">
+                                            <div class="inner">
+                                                <p class="sm_checkbox">
+                                                    <input class="chkCats" type="checkbox" data-name="Sửa chữa thân xe và sơn" data-idcat="4" id="chkstep1_04">
+                                                    <label for="chkstep1_04" data-holderoriginal="
+                                                        
+                                                            
+                                                            Sửa chữa thân xe và sơn
+                                                        
+                                                    ">
+                                                        <span>
+                                                            <span class="img"><img src="/Content/images/dangkydichvu_item_04.png"></span>
+                                                            <span class="txt">Sửa chữa thân xe và sơn</span>
+                                                        </span>
+                                                    </label>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="item" data-id="5">
+                                            <div class="inner">
+                                                <p class="sm_checkbox">
+                                                    <input class="chkCats" type="checkbox" data-name="Kiểm tra và triệu hồi" data-idcat="5" id="chkstep1_05">
+                                                    <label for="chkstep1_05" data-holderoriginal="
+                                                        
+                                                            
+                                                            Kiểm tra và triệu hồi
+                                                        
+                                                    ">
+                                                        <span>
+                                                            <span class="img"><img src="/Content/images/dangkydichvu_item_05.png"></span>
+                                                            <span class="txt">Kiểm tra và triệu hồi</span>
+                                                        </span>
+                                                    </label>
+                                                </p>
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="btn_next btn_next_mb btn_next_fixed">
+                            <a class="next_btn_1 full-width">Tiếp theo</a>
+                        </p>
+                    </div>
+                    <div id="tab_dangkydichvu_02" class="content-tab" style="display: none;">
+                        <p class="btn_prev btn_prev_mb">
+                            <a class="next_btn_0">❮</a>
+                        </p>
+                        <div class="inner">
+                            <div class="heading_dt" data-text="02">
+                                <p class="txt1" data-text="Đặt lịch hẹn">Bước 2</p>
+                                <p class="txt2">Đặt lịch hẹn</p>
+                                <p class="btn_next btn_next_pc">
+                                    <a class="next_btn_2">Tiếp theo</a>
+                                </p>
+                            </div>
+                            <div class="content_tab">
+                                <div class="form_1 form_dk">
+                                    <div class="row">
+                                        <div class="col l3 m3 s12"> <span class="lbl"> Ngày dự kiến (*)</span> </div>
+                                        <div class="col l8 m8 s12">
+                                            <div class="row">
+                                                <div class="col s9">
+                                                    <div class="input-field" id="setinputDate"><input id="inputDate" type="text" class="input datepicker1 input_cld picker__input" readonly="" tabindex="-1" aria-haspopup="true" aria-expanded="false" aria-readonly="false" aria-owns="inputDate_root"><div class="picker" id="inputDate_root" tabindex="0" aria-hidden="true"><div class="picker__holder"><div class="picker__frame"><div class="picker__wrap"><div class="picker__box"><div class="picker__date-display"><div class="picker__weekday-display">Thứ sáu</div><div class="picker__month-display"><div>Tháng 9</div></div><div class="picker__day-display"><div>21</div></div><div class="picker__year-display"><div>2018</div></div></div><div class="picker__calendar-container"><div class="picker__header"><div class="picker__month">Tháng 9</div><div class="picker__year">2018</div><div class="picker__nav--prev picker__nav--disabled" data-nav="-1" role="button" aria-controls="inputDate_table" title="Tháng trước"> </div><div class="picker__nav--next" data-nav="1" role="button" aria-controls="inputDate_table" title="Tháng kế"> </div></div><table class="picker__table" id="inputDate_table" role="grid" aria-controls="inputDate" aria-readonly="true"><thead><tr><th class="picker__weekday" scope="col" title="Chủ nhật">CN</th><th class="picker__weekday" scope="col" title="Thứ hai">T2</th><th class="picker__weekday" scope="col" title="Thứ ba">T3</th><th class="picker__weekday" scope="col" title="Thứ tư">T4</th><th class="picker__weekday" scope="col" title="Thứ năm">T5</th><th class="picker__weekday" scope="col" title="Thứ sáu">T6</th><th class="picker__weekday" scope="col" title="Thứ bảy">T7</th></tr></thead><tbody><tr><td role="presentation"><div class="picker__day picker__day--outfocus picker__day--disabled" data-pick="1535216400000" role="gridcell" aria-label="26/08/2018" aria-disabled="true">26</div></td><td role="presentation"><div class="picker__day picker__day--outfocus picker__day--disabled" data-pick="1535302800000" role="gridcell" aria-label="27/08/2018" aria-disabled="true">27</div></td><td role="presentation"><div class="picker__day picker__day--outfocus picker__day--disabled" data-pick="1535389200000" role="gridcell" aria-label="28/08/2018" aria-disabled="true">28</div></td><td role="presentation"><div class="picker__day picker__day--outfocus picker__day--disabled" data-pick="1535475600000" role="gridcell" aria-label="29/08/2018" aria-disabled="true">29</div></td><td role="presentation"><div class="picker__day picker__day--outfocus picker__day--disabled" data-pick="1535562000000" role="gridcell" aria-label="30/08/2018" aria-disabled="true">30</div></td><td role="presentation"><div class="picker__day picker__day--outfocus picker__day--disabled" data-pick="1535648400000" role="gridcell" aria-label="31/08/2018" aria-disabled="true">31</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1535734800000" role="gridcell" aria-label="01/09/2018" aria-disabled="true">1</div></td></tr><tr><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1535821200000" role="gridcell" aria-label="02/09/2018" aria-disabled="true">2</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1535907600000" role="gridcell" aria-label="03/09/2018" aria-disabled="true">3</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1535994000000" role="gridcell" aria-label="04/09/2018" aria-disabled="true">4</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536080400000" role="gridcell" aria-label="05/09/2018" aria-disabled="true">5</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536166800000" role="gridcell" aria-label="06/09/2018" aria-disabled="true">6</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536253200000" role="gridcell" aria-label="07/09/2018" aria-disabled="true">7</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536339600000" role="gridcell" aria-label="08/09/2018" aria-disabled="true">8</div></td></tr><tr><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536426000000" role="gridcell" aria-label="09/09/2018" aria-disabled="true">9</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536512400000" role="gridcell" aria-label="10/09/2018" aria-disabled="true">10</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536598800000" role="gridcell" aria-label="11/09/2018" aria-disabled="true">11</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536685200000" role="gridcell" aria-label="12/09/2018" aria-disabled="true">12</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536771600000" role="gridcell" aria-label="13/09/2018" aria-disabled="true">13</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536858000000" role="gridcell" aria-label="14/09/2018" aria-disabled="true">14</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1536944400000" role="gridcell" aria-label="15/09/2018" aria-disabled="true">15</div></td></tr><tr><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1537030800000" role="gridcell" aria-label="16/09/2018" aria-disabled="true">16</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1537117200000" role="gridcell" aria-label="17/09/2018" aria-disabled="true">17</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1537203600000" role="gridcell" aria-label="18/09/2018" aria-disabled="true">18</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1537290000000" role="gridcell" aria-label="19/09/2018" aria-disabled="true">19</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--disabled" data-pick="1537376400000" role="gridcell" aria-label="20/09/2018" aria-disabled="true">20</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--today picker__day--disabled" data-pick="1537462800000" role="gridcell" aria-label="21/09/2018" aria-disabled="true">21</div></td><td role="presentation"><div class="picker__day picker__day--infocus picker__day--highlighted" data-pick="1537549200000" role="gridcell" aria-label="22/09/2018" aria-activedescendant="true">22</div></td></tr><tr><td role="presentation"><div class="picker__day picker__day--infocus" data-pick="1537635600000" role="gridcell" aria-label="23/09/2018">23</div></td><td role="presentation"><div class="picker__day picker__day--infocus" data-pick="1537722000000" role="gridcell" aria-label="24/09/2018">24</div></td><td role="presentation"><div class="picker__day picker__day--infocus" data-pick="1537808400000" role="gridcell" aria-label="25/09/2018">25</div></td><td role="presentation"><div class="picker__day picker__day--infocus" data-pick="1537894800000" role="gridcell" aria-label="26/09/2018">26</div></td><td role="presentation"><div class="picker__day picker__day--infocus" data-pick="1537981200000" role="gridcell" aria-label="27/09/2018">27</div></td><td role="presentation"><div class="picker__day picker__day--infocus" data-pick="1538067600000" role="gridcell" aria-label="28/09/2018">28</div></td><td role="presentation"><div class="picker__day picker__day--infocus" data-pick="1538154000000" role="gridcell" aria-label="29/09/2018">29</div></td></tr><tr><td role="presentation"><div class="picker__day picker__day--infocus" data-pick="1538240400000" role="gridcell" aria-label="30/09/2018">30</div></td><td role="presentation"><div class="picker__day picker__day--outfocus" data-pick="1538326800000" role="gridcell" aria-label="01/10/2018">1</div></td><td role="presentation"><div class="picker__day picker__day--outfocus" data-pick="1538413200000" role="gridcell" aria-label="02/10/2018">2</div></td><td role="presentation"><div class="picker__day picker__day--outfocus" data-pick="1538499600000" role="gridcell" aria-label="03/10/2018">3</div></td><td role="presentation"><div class="picker__day picker__day--outfocus" data-pick="1538586000000" role="gridcell" aria-label="04/10/2018">4</div></td><td role="presentation"><div class="picker__day picker__day--outfocus" data-pick="1538672400000" role="gridcell" aria-label="05/10/2018">5</div></td><td role="presentation"><div class="picker__day picker__day--outfocus" data-pick="1538758800000" role="gridcell" aria-label="06/10/2018">6</div></td></tr></tbody></table></div><div class="picker__footer"><button class="btn-flat picker__today" type="button" data-pick="1537462800000" disabled="" aria-controls="inputDate">Today</button><button class="btn-flat picker__clear" type="button" data-clear="1" disabled="" aria-controls="inputDate">Clear</button><button class="btn-flat picker__close" type="button" data-close="true" disabled="" aria-controls="inputDate">Close</button></div></div></div></div></div></div><label for="inputDate"></label></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col l3 m3 s12"> <span class="lbl"> Thời gian dự kiến (*)</span> </div>
+                                        <div class="col l8 m8 s12">
+                                            <div class="row">
+                                                <div class="col s9">
+                                                    <div class="input-field">
+                                                        
+                                                        
+                                                        <div class="select-wrapper initialized"><span class="caret">▼</span>
+                                                            <ul id="select-options-a897c2c4-fe6f-fd53-5b2d-a4623f2d7ea5" class="dropdown-content select-dropdown "><li class="disabled "><span>Chọn giờ</span></li><li class=""><span>08:00</span></li><li class=""><span>09:00</span></li><li class=""><span>10:00</span></li><li class=""><span>11:00</span></li><li class=""><span>13:00</span></li><li class=""><span>14:00</span></li><li class=""><span>15:00</span></li><li class=""><span>16:00</span></li><li class=""><span>17:00</span></li></ul><select id="hourPicker" class="initialized"><option disabled="" selected="" value="0">Chọn giờ</option><option value="08:00">08:00</option><option value="09:00">09:00</option><option value="10:00">10:00</option><option value="11:00">11:00</option><option value="13:00">13:00</option><option value="14:00">14:00</option><option value="15:00">15:00</option><option value="16:00">16:00</option><option value="17:00">17:00</option></select></div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col l3 m3 s12"> <span class="lbl"> Đại lý (*)</span> </div>
+                                        <div class="col l8 m8 s12">
+                                            <div class="row">
+                                                <div class="col s9">
+                                                    <div class="input-field">
+                                                        <div class="select-wrapper"><span class="caret">▼</span>
+                                                            <ul id="select-options-ea818c28-0cd0-da72-c990-5e2b980d7e72" class="dropdown-content select-dropdown "></ul><select id="ddlDealer" class="initialized"></select></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row rowAdrress hide">
+                                        <div class="col l3 m3 s12"> <span class="lbl"> Địa điểm (*)</span> </div>
+                                        <div class="col l8 m8 s12">
+                                            <div class="row">
+                                                <div class="col s9">
+                                                    <div class="input-field">
+                                                        <div class="select-wrapper"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-5c691d12-c1b4-58f8-bc56-5c13c6ba6b87" value=""><ul id="select-options-5c691d12-c1b4-58f8-bc56-5c13c6ba6b87" class="dropdown-content select-dropdown "></ul><select id="ddlAdrress" class="initialized">
+                                                            
+                                                        </select></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col l3 m3 s12"> <span class="lbl"> Nhân viên dịch vụ </span> </div>
+                                        <div class="col l8 m8 s12">
+                                            <div class="row">
+                                                <div class="col s9">
+                                                    <div class="input-field">
+                                                        <input id="inputEmployer" name="inputEmployer" autocomplete="off" type="text" class="input txtEmployer" value="" placeholder="Trần Lê Nam" onkeypress="this.value = ucwords(this.value)">
+                                                        <label for="inputEmployer" data-holderoriginal="" class="active"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row hide">
+                                        <div class="col l3 m3 s12"> <span class="lbl"></span> </div>
+                                        <div class="col l8 m8 s12">
+                                            <span class="row note" id="lbAdd">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="break_suggest">
+                                    <i>Quý khách vui lòng điền đầy đủ các thông tin có dấu (*)</i>
+                                </div>
+                            </div>
+                            <div class="heading_dt hide-mb">
+                                <p class="txt1">Dịch vụ đã chọn</p>
+                            </div>
+                            <div class="list-service all hide-mb">
+                                <ul class="step2">
+                                    <li class="item" data-id="1" style="display: none">
+                                        <div class="inner">
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="1" id="chkstep4_01">
+                                                <label for="chkstep4_01" data-holderoriginal="
+                                                    
+                                                        
+                                                        Bảo hành
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_01.png"></span>
+                                                        <span class="txt">Bảo hành</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="2" style="display: none">
+                                        <div class="inner">
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="2" id="chkstep4_02">
+                                                <label for="chkstep4_02" data-holderoriginal="
+                                                    
+                                                        
+                                                        Bảo dưỡng
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_02.png"></span>
+                                                        <span class="txt">Bảo dưỡng</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="3" style="display: none">
+                                        <div class="inner">
+
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="3" id="chkstep4_03">
+                                                <label for="chkstep4_03" data-holderoriginal="
+                                                    
+                                                        
+                                                        Sửa chữa chung
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_03.png"></span>
+                                                        <span class="txt">Sửa chữa chung</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="4" style="display: none">
+                                        <div class="inner">
+
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="4" id="chkstep4_04">
+                                                <label for="chkstep4_04" data-holderoriginal="
+                                                    
+                                                        
+                                                        Sửa chữa thân xe và sơn
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_04.png"></span>
+                                                        <span class="txt">Sửa chữa thân xe và sơn</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="5" style="display: none">
+                                        <div class="inner">
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="5" id="chkstep4_05">
+                                                <label for="chkstep4_05" data-holderoriginal="
+                                                    
+                                                        
+                                                        Kiểm tra và triệu hồi
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_05.png"></span>
+                                                        <span class="txt">Kiểm tra và triệu hồi</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="btn_next btn_next_mb btn_next_fixed">
+                            <a class="next_btn_2 full-width">Tiếp theo</a>
+                        </p>
+                    </div>
+                    <div id="tab_dangkydichvu_03" class="content-tab" style="display: none;">
+                        <p class="btn_prev btn_prev_mb">
+                            <a class="next_btn_1">❮</a>
+                        </p>
+                        <div class="inner">
+                            <div class="heading_dt" data-text="03">
+                                <p class="txt1" data-text="Thông tin khách hàng">Bước 3</p>
+                                <p class="txt2">Thông tin khách hàng</p>
+                                <p class="btn_next btn_next_pc">
+                                    <a class="btnSend">Hoàn tất</a>
+                                </p>
+                            </div>
+                            <div class="content_tab">
+                                <div class="form_dk">
+                                    <div class="row">
+                                        <div class="col s12 l6 m12">
+                                            <div class="row">
+                                                <div class="col l3 m3 s12"> <span class="lbl"> Danh xưng (*)</span> </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row">
+                                                        <div class="col l9 s12 m12">
+                                                            <div class="input-field">
+                                                                <div class="select-wrapper"><span class="caret">▼</span>
+                                                                    <ul id="select-options-334122e6-443e-ad3d-36d7-e7e501eb57fd" class="dropdown-content select-dropdown "><li class="disabled "><span>Chọn danh xưng</span></li><li class=""><span>Ông</span></li><li class=""><span>Bà</span></li><li class=""><span>Anh</span></li><li class=""><span>Chị</span></li></ul><select id="ddlTitle" class="initialized">
+                                                                    <option disabled="" selected="" value="0">Chọn danh xưng</option>
+                                                                    <option value="Ông">Ông</option>
+                                                                    <option value="Bà">Bà</option>
+                                                                    <option value="Anh">Anh</option>
+                                                                    <option value="Chị">Chị</option>
+                                                                </select></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l3 m3 s12"> <span class="lbl"> Họ tên (*)</span> </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row">
+                                                        <div class="col m5 l4 s5">
+                                                            <div class="input-field">
+                                                                <input id="inputLastName" name="inputLastName" autocomplete="off" type="text" class="input txtLastName" placeholder="Trần Lê" onkeypress="this.value = ucwords(this.value)">
+                                                                <label for="inputLastName" data-holderoriginal="" class="active"></label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col m7 l5 s7">
+                                                            <div class="input-field">
+                                                                <input id="inputName" name="inputName" autocomplete="off" type="text" class="input txtName" placeholder="Nam" onkeypress="this.value = ucwords(this.value)">
+                                                                <label for="inputName" data-holderoriginal="" class="active"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l3 m3 s12">
+                                                    <span class="lbl">Email</span>
+                                                </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row">
+                                                        <div class="col s12 m12 l9">
+                                                            <div class="input-field">
+                                                                <input id="inputEmail" name="inputEmail" autocomplete="off" type="text" class="input txtEmail" placeholder="abc@example.com">
+                                                                <label for="inputEmail" data-holderoriginal="" class="active"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 l6 m12">
+                                            <div class="row">
+                                                <div class="col l3 m3 s12"> <span class="lbl">Số điện thoại (*)</span> </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row">
+                                                        <div class="col l9 m12 s12">
+                                                            <div class="input-field">
+                                                                <input id="inputPhone" name="inputPhone" onkeyup="this.value = this.value.replace(/[^\d^\+]/, '')" autocomplete="off" type="text" class="input txtPhoneMask" placeholder="01234 567 890">
+                                                                <label for="inputPhone" data-holderoriginal="" class="active"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col l3 m3 s12"> <span class="lbl">Yêu cầu sửa chữa</span> </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row">
+                                                        <div class="col l9 m12 s12">
+                                                            <div class="input-field">
+                                                                <textarea id="inputNote" class="input" autocomplete="off" placeholder="Ghi chú" length="500" maxlength="500"></textarea>
+                                                                <label for="inputNote" data-holderoriginal="" class="active"></label>
+                                                            <span class="character-counter" style="float: right; font-size: 12px; height: 1px;"></span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heading_dt2">
+                                <p class="txt1">Thông tin xe</p>
+                            </div>
+                            <div class="content_tab ">
+                                <div class="form_dk">
+                                    <div class="row">
+                                        <div class="col l6 s12">
+
+                                            <div class="row">
+                                                <div class="col l3 m3 s12"> <span class="lbl"> Mẫu xe </span> </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row">
+                                                        <div class="col s9">
+                                                            <div class="input-field">
+                                                                <div class="select-wrapper"><span class="caret">▼</span>
+                                                                    <ul id="select-options-936dff70-3e33-21ff-567a-eeb0b1ef61e5" class="dropdown-content select-dropdown "><li class="disabled "><span>Chọn mẫu xe</span></li><li class=""><span>Yaris</span></li><li class=""><span>Vios</span></li><li class=""><span>Corolla Altis</span></li><li class=""><span>Camry</span></li><li class=""><span>Fortuner</span></li><li class=""><span>Land Cruiser Prado</span></li><li class=""><span>Land Cruiser</span></li><li class=""><span>Innova</span></li><li class=""><span>Hiace</span></li><li class=""><span>Hilux</span></li><li class=""><span>Khác</span></li></ul><select id="selectCats" class="initialized">
+                                                                    <option disabled="" selected="" value="">Chọn mẫu xe</option>
+                                                                        <option data-id="800" value="Yaris">Yaris</option>
+                                                                        <option data-id="801" value="Vios">Vios</option>
+                                                                        <option data-id="821" value="Corolla Altis">Corolla Altis</option>
+                                                                        <option data-id="802" value="Camry">Camry</option>
+                                                                        <option data-id="823" value="Fortuner">Fortuner</option>
+                                                                        <option data-id="824" value="Land Cruiser Prado">Land Cruiser Prado</option>
+                                                                        <option data-id="825" value="Land Cruiser">Land Cruiser</option>
+                                                                        <option data-id="822" value="Innova">Innova</option>
+                                                                        <option data-id="827" value="Hiace">Hiace</option>
+                                                                        <option data-id="826" value="Hilux">Hilux</option>
+                                                                    <option data-id="0" value="Khác">Khác</option>
+                                                                </select></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col l6 s12">
+
+                                            <div class="row">
+                                                <div class="col l3 m3 s12"> <span class="lbl"> Phiên bản</span> </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row">
+                                                        <div class="col s9">
+                                                            <div class="input-field">
+                                                                
+                                                                <div class="select-wrapper"><span class="caret">▼</span>
+                                                                    <ul id="select-options-d1c026fa-6d16-e2a6-c966-e21e30002649" class="dropdown-content select-dropdown "><li class="disabled "><span>Chọn phiên bản</span></li><li class=""><span>Khác</span></li></ul><select id="selectModelCar" class="initialized">
+                                                                    <option disabled="" selected="" value="">Chọn phiên bản</option>
+                                                                    <option value="Khác">Khác</option>
+                                                                </select></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col l6 s12">
+                                            <div class="row">
+                                                <div class="col l3 m3 s12"> <span class="lbl">Biển số xe (*)</span> </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row posr">
+                                                        <div class="col s9">
+                                                            <div class="input-field">
+                                                                <input id="inputLicenseCar" type="text" autocomplete="off" class="input txtLicenseCar" placeholder="59B-.....">
+                                                                <label for="inputLicenseCar" data-holderoriginal="" class="active"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col l6 s12">
+                                            <div class="row">
+                                                <div class="col l3 m3 s12"> <span class="lbl"> Năm sản xuất</span> </div>
+                                                <div class="col l8 m8 s12">
+                                                    <div class="row">
+                                                        <div class="col s9">
+                                                            <div class="input-field">
+                                                                
+                                                                <div class="select-wrapper"><span class="caret">▼</span>
+                                                                    <ul id="select-options-dff4606e-34aa-fdc8-f81c-73d879be9437" class="dropdown-content select-dropdown "><li class="disabled "><span>Chọn năm sản xuất</span></li><li class=""><span>2017</span></li><li class=""><span>2016</span></li><li class=""><span>2015</span></li><li class=""><span>2014</span></li><li class=""><span>2013</span></li><li class=""><span>2012</span></li><li class=""><span>2011</span></li><li class=""><span>2010</span></li><li class=""><span>2009</span></li><li class=""><span>2008</span></li><li class=""><span>2007</span></li><li class=""><span>2006</span></li><li class=""><span>2005</span></li><li class=""><span>Khác</span></li></ul><select id="inputYearCar" class="initialized">
+                                                                    <option disabled="" selected="" value="">Chọn năm sản xuất</option>
+                                                                    <option value="2017">2017</option>
+                                                                    <option value="2016">2016</option>
+                                                                    <option value="2015">2015</option>
+                                                                    <option value="2014">2014</option>
+                                                                    <option value="2013">2013</option>
+                                                                    <option value="2012">2012</option>
+                                                                    <option value="2011">2011</option>
+                                                                    <option value="2010">2010</option>
+                                                                    <option value="2009">2009</option>
+                                                                    <option value="2008">2008</option>
+                                                                    <option value="2007">2007</option>
+                                                                    <option value="2006">2006</option>
+                                                                    <option value="2005">2005</option>
+                                                                    <option value="Khác">Khác</option>
+                                                                </select></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="break_suggest">
+                                    <i>Quý khách vui lòng điền đầy đủ các thông tin có dấu (*)</i>
+                                </div>
+                            </div>
+                            <div class="heading_dt hide-mb">
+                                <p class="txt1">Dịch vụ đã chọn</p>
+                            </div>
+                            <div class="list-service all hide-mb">
+                                <ul class="step3">
+
+                                    <li class="item" data-id="1" style="display: none">
+                                        <div class="inner">
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="1" id="chkstep4_01">
+                                                <label for="chkstep4_01" data-holderoriginal="
+                                                    
+                                                        
+                                                        Bảo hành
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_01.png"></span>
+                                                        <span class="txt">Bảo hành</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="2" style="display: none">
+                                        <div class="inner">
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="2" id="chkstep4_02">
+                                                <label for="chkstep4_02" data-holderoriginal="
+                                                    
+                                                        
+                                                        Bảo dưỡng
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_02.png"></span>
+                                                        <span class="txt">Bảo dưỡng</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="3" style="display: none">
+                                        <div class="inner">
+
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="3" id="chkstep4_03">
+                                                <label for="chkstep4_03" data-holderoriginal="
+                                                    
+                                                        
+                                                        Sửa chữa chung
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_03.png"></span>
+                                                        <span class="txt">Sửa chữa chung</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="4" style="display: none">
+                                        <div class="inner">
+
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="4" id="chkstep4_04">
+                                                <label for="chkstep4_04" data-holderoriginal="
+                                                    
+                                                        
+                                                        Sửa chữa thân xe và sơn
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_04.png"></span>
+                                                        <span class="txt">Sửa chữa thân xe và sơn</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+                                        </div>
+
+                                    </li>
+                                    <li class="item" data-id="5" style="display: none">
+                                        <div class="inner">
+
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="5" id="chkstep4_05">
+                                                <label for="chkstep4_05" data-holderoriginal="
+                                                    
+                                                        
+                                                        Kiểm tra và triệu hồi
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_05.png"></span>
+                                                        <span class="txt">Kiểm tra và triệu hồi</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="btn_next btn_next_mb btn_next_fixed">
+                            <a class="next_btn_3 full-width">Hoàn tất</a>
+                        </p>
+                    </div>
+                    <div id="tab_dangkydichvu_04" class="content-tab" style="display: none;">
+                        <div class="inner">
+                            <div class="heading_dt" data-text="✔">
+                                <p class="txt1" data-text="Hoàn tất đăng ký">Hoàn tất đăng ký</p>
+                                <p class="txt2">Cảm ơn quý khách đã đặt hẹn dịch vụ</p>
+                                <p class="btn_next btn_next_pc">
+                                    <a href="/">Về trang chủ</a>
+                                </p>
+                            </div>
+                            <div class="content_tab">
+                                <div class="finished_step">
+                                    
+                                    <p>
+                                        Xin cảm ơn Quý khách đã tin tưởng và sử dụng dịch vụ của chúng tôi.<br>
+                                        Chúng tôi xin xác nhận thông tin đăng ký của Quý khách như sau:
+                                    </p>
+                                    <div style="margin: 2rem 0">
+                                        <p><span style="font-weight: bold">Thông tin khách hàng</span></p>
+                                        <p>- Tên khách hàng: <span class="fullname" id="fullname"></span></p>
+                                        <p>- Số điện thoại: <span class="phone" id="phone"></span></p>
+                                        <p>- Email: <span class="email" id="email"></span></p>
+                                        <p style="margin-top: 2rem"><span style="font-weight: bold;">Thông tin dịch vụ</span></p>
+                                        <p>- Dịch vụ: <span class="dichvu" id="dichvu"></span></p>
+                                        <p>- Mẫu xe: <span class="mauxe" id="mauxe"></span></p>
+                                        <p>- Phiên bản xe: <span class="phienban" id="phienban"></span></p>
+                                        <p>- Biển số xe: <span class="bienso" id="bienso"></span></p>
+                                        <p>- Năm sản xuất: <span class="namsx" id="namsx"></span></p>
+                                        <p>- Thời gian: <span class="date" id="spDate"></span> lúc <span class="time" id="spHour"></span></p>
+                                        <p>- Đại lý: <span class="deaname" id="deaname"></span></p>
+                                        <p>- Địa điểm: <span class="address" id="address"></span></p>
+                                        <p>- Nhân viên dịch vụ: <span class="employer" id="employer"></span></p>
+                                        <p>- Yêu cầu sửa chữa: <span class="ghichu" id="ghichu"></span></p>
+                                    </div>
+                                    <p>
+                                        Nhân viên tư vấn dịch vụ sẽ liên hệ với Quý khách để xác nhận lịch hẹn trong thời gian sớm nhất.<br>
+                                        Xin trân trọng cảm ơn!
+                                    </p>
+                                    
+
+                                </div>
+                                <p class="btn_next btn_next_mb btn_next_fixed hide-pc">
+                                    <a href="/">Về trang chủ</a>
+                                </p>
+                            </div>
+                            <div class="heading_dt hide-mb">
+                                <p class="txt1">Dịch vụ đã chọn</p>
+                            </div>
+                            <div class="list-service all hide-mb">
+                                <ul class="step4">
+                                    <li class="item" data-id="1" style="display: none">
+                                        <div class="inner">
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="1" id="chkstep4_01">
+                                                <label for="chkstep4_01" data-holderoriginal="
+                                                    
+                                                        
+                                                        Bảo hành
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_01.png"></span>
+                                                        <span class="txt">Bảo hành</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="2" style="display: none">
+                                        <div class="inner">
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="2" id="chkstep4_02">
+                                                <label for="chkstep4_02" data-holderoriginal="
+                                                    
+                                                        
+                                                        Bảo dưỡng
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_02.png"></span>
+                                                        <span class="txt">Bảo dưỡng</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+
+                                    </li>
+                                    <li class="item" data-id="3" style="display: none">
+                                        <div class="inner">
+
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="3" id="chkstep4_03">
+                                                <label for="chkstep4_03" data-holderoriginal="
+                                                    
+                                                        
+                                                        Sửa chữa chung
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_03.png"></span>
+                                                        <span class="txt">Sửa chữa chung</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="4" style="display: none">
+                                        <div class="inner">
+
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="4" id="chkstep4_04">
+                                                <label for="chkstep4_04" data-holderoriginal="
+                                                    
+                                                        
+                                                        Sửa chữa thân xe và sơn
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_04.png"></span>
+                                                        <span class="txt">Sửa chữa thân xe và sơn</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                    <li class="item" data-id="5" style="display: none">
+                                        <div class="inner">
+
+
+                                            <p class="sm_checkbox">
+                                                <input class="chkCats" type="checkbox" disabled="disabled" data-idcat="5" id="chkstep4_05">
+                                                <label for="chkstep4_05" data-holderoriginal="
+                                                    
+                                                        
+                                                        Kiểm tra và triệu hồi
+                                                    
+                                                ">
+                                                    <span>
+                                                        <span class="img"><img src="/Content/images/dangkydichvu_item_05.png"></span>
+                                                        <span class="txt">Kiểm tra và triệu hồi</span>
+                                                    </span>
+                                                </label>
+                                            </p>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/App/Export/Javascript/page.serviceregistermain.min.js"></script>

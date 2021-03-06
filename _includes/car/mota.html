@@ -1,0 +1,60 @@
+<!--Mo ta xe-->
+{% assign thong_tin_xe= car.thong_tin_xe %}
+<div id="sec_dt_01" class="scrollspy">
+    <div class="container">
+        <div class="row row01">
+            <div class="col s12 m5 l5">
+                <h1 class="name_dt animated fadeInDownShort go">
+                    <span id="spTitleCar">{{car.ten_xe}}</span>
+                </h1>
+                <input type="hidden" id="hdCatId" value="821" />
+                <input type="hidden" id="hdCarId" value="1865" />
+                <p class="txt_dt animated fadeInLeftShort go">
+                    {% for sapo in car.sapos %} {{sapo}} </br>
+                    {% endfor %}
+                </p>
+                <p class="price_dt animated fadeInUpShort go price_detail">
+                    {{car.gia_xe}}
+                </p>
+                <p class="txt_dt_2 animated fadeInUpShort go">
+                    {% for thongtin in thong_tin_xe %}
+                    <span>{{thongtin}}</span>
+                    <br /> {% endfor %}
+                </p>
+                <div class="rowbtn hide-mb" style="margin-top: 30px;">
+                    <div class="btn_wrap" style="margin-right: 10px" id="btnTestDrive">
+                        <a class="btnc btn-primary" data-text="Đăng ký lái thử">
+                            <span class="btn_overlay"> </span>
+                            <span class="btn_text">Đăng ký lái thử</span>
+                        </a>
+                    </div>
+                    <div class="btn_wrap">
+                        <a class="btnc btn-primary bg-light-grey" id="btnCompare" data-text="So sánh">
+                            <span class="btn_overlay"></span>
+                            <span class="btn_text">So sánh</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col l7 m7 s12">
+                <div class="chk_color_box">
+                    <div class="img_box">
+                        <img class="lazy" data-original={{colors[0].img}} alt="Đen 218">
+                    </div>
+                    <div class="list-color">
+                        <ul>
+                            <p class="txt-color">{{colors[0].cl}}</p>
+                            {% for color in colors %}
+                            <li>
+                                <span data-img={{color.img}} data-cl="{{color.cl}}" data-price="{{color.price}}" style="{{color.style}}"></span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End of Mo ta xe-->

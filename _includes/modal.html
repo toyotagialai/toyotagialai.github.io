@@ -1,0 +1,246 @@
+<style>
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    max-height: 100%; /* Full height */
+    overflow: visible; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding: 0 0 100% 0;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    position: relative;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 0 10px;
+    border-radius: 3px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #myModal .title {
+    color: #c8102e;
+    margin: 0 10px;
+    margin-bottom: 11px;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #myModal .sub-title {
+    padding: 0 10px;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  #toyota-contact {
+    padding-top: 0 !important;
+  }
+  @media only screen and (max-width: 600px) {
+    #myModal .title {
+      font-size: 12px;
+      line-height: 0;
+    }
+    #myModal .sub-title {
+      font-size: 14px;
+    }
+    #toyota-contact .row {
+      margin: 0 auto;
+    }
+  }
+</style>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" id="btnCloseModal">&times;</span>
+    <h3 class="title">Toyota Gia Lai – 0973807479</h3>
+    <p class="sub-title">
+      Quý khách nhập thông tin dòng xe quý khách quan tâm, bộ phận báo giá sẽ
+      gửi thông tin chương trình khuyến mãi đến quý khách ngay khi thông tin
+      được gửi đi.
+    </p>
+    <div id="toyota-contact" class="form-tmv form-tmv-1 s-content">
+      <div class="row">
+        <div class="col s12 m7">
+          <div class="input-field">
+            <input
+              id="contactModalName"
+              class="input"
+              type="text"
+              placeholder="Họ tên"
+            />
+          </div>
+        </div>
+        <div class="col s12 m5">
+          <div class="input-field">
+            <input
+              id="contactModalPhone"
+              class="input"
+              type="number"
+              placeholder="Điện thoại (*)"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field">
+            <input
+              id="contactModalAddress"
+              class="input"
+              type="text"
+              placeholder="Address"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field">
+            <textarea
+              id="contactModalMessage"
+              autocomplete="off"
+              class="input"
+              length="500"
+              maxlength="500"
+              placeholder="Nội dung"
+            ></textarea>
+            <span
+              class="character-counter"
+              style="float: right; font-size: 12px; height: 1px;"
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field">
+            <div class="btn_wrap btn_small" id="btnSendModal">
+              <button class="btn-primary">
+                <span class="btn_text">Gửi</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript">
+  setTimeout(() => {
+    const timeSendMessage = localStorage.getItem("timeSendMessage");
+    const timeNow = Math.ceil(new Date().getTime() / 1000);
+    const distance = timeNow - timeSendMessage;
+    if (timeSendMessage && distance < 60 * 60) return; //Nho hon 24h
+    $("#myModal").css("display", "block");
+  }, 2000);
+
+  const gaoDua = {
+    id: "1806374519490633",
+    token:
+      "EAACW5Fg5N2IBAEzgZAIfqpcHJrqEZBGZCIZA82JUjZCtwbKQH3vRQDPe82mtjMNVtGjcdW2Q2RrO61Jy4Vfu6vXIKDZCyWnLI2yjBu8zQpjjVesR3jNqNzS0SXW7ERSr0uTmODGMu46yfmln0zirvxpMdbCrgc1cX2LmmZB3qZCJ4gZDZD" //Stencil
+  };
+  const xuanHuy = {
+    id: "1985529444864811",
+    token:
+      "EAACW5Fg5N2IBAEzgZAIfqpcHJrqEZBGZCIZA82JUjZCtwbKQH3vRQDPe82mtjMNVtGjcdW2Q2RrO61Jy4Vfu6vXIKDZCyWnLI2yjBu8zQpjjVesR3jNqNzS0SXW7ERSr0uTmODGMu46yfmln0zirvxpMdbCrgc1cX2LmmZB3qZCJ4gZDZD" //Stencil
+  };
+  const chiThanh = {
+    id: "2019575731443695",
+    token:
+      "EAACW5Fg5N2IBAIEYYmzSpY6dXLKICapz9uZCiBUx6Oh6t1lekuSRzhVFMcBvlWn3UEEGGUh8dC4hVR75R2gGGDyZBQKA2NPv6dOWZCD7ZAvfzkEirnQCbmHrDkA5hIZCKAnMYXZAqvLoTc2Meb9Bd4JHn8tUKKFfdE2hnfwFfrqqbDZBTDXK9cL"
+  };
+
+  const sendMessage = ({ message, tokenPageFrom, toId }) => {
+    // Tắt sau khi nhấn gửi
+    localStorage.setItem(
+      "timeSendMessage",
+      Math.ceil(new Date().getTime() / 1000)
+    );
+    return $.ajax({
+      method: "POST",
+      url:
+        "https://graph.facebook.com/v2.6/me/messages?access_token=" +
+        tokenPageFrom,
+      data: {
+        recipient: { id: toId },
+        message: { text: message }
+      }
+    });
+  };
+  const sendSuccess = () => {
+    document.getElementById("myModal").style.display = "none";
+    showErrorbyAlert(
+      "Đã gửi",
+      "<p>Chúng tôi sẽ liên hệ Quý khách trong thời gian sớm nhất<p><p>Xin trân trọng cảm ơn!</p>",
+      ""
+    );
+  };
+  $(document).ready(function() {
+    $("#btnCloseModal").click(function() {
+      document.getElementById("myModal").style.display = "none";
+    });
+    $("#btnSendModal").click(function() {
+      const name = $("#contactModalName").val();
+      const phone = $("#contactModalPhone").val();
+      if (!phone) return;
+      const address = $("#contactModalAddress").val();
+      const message = $("#contactModalMessage").val();
+      // showErrorbyAlert('So sánh', "<p>Email không hợp lệ!<p>", "");
+      const text = `${name}
+${phone}
+${address}
+${message}`;
+
+      sendMessage({
+        message: text,
+        tokenPageFrom: chiThanh.token,
+        toId: chiThanh.id
+      })
+        .done(function(res) {
+          sendSuccess();
+        })
+        .fail(function() {
+          sendMessage({
+            message: "Toyota send mess has error",
+            tokenPageFrom: xuanHuy.token,
+            toId: xuanHuy.id
+          });
+          sendSuccess();
+        });
+    });
+  });
+
+  window.onclick = function(event) {
+    const modal = document.getElementById("myModal");
+    if (event.target == modal) {
+      document.getElementById("myModal").style.display = "none";
+    }
+  };
+</script>

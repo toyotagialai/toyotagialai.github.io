@@ -1,0 +1,85 @@
+<!-- Van hanh -->
+{% assign tinhnang = car.tinh_nang_noi_bat %} 
+{% assign van_hanh = tinhnang.van_hanh %} 
+{% assign an_toan = tinhnang.an_toan %}
+<div id="sec_dt_06" class="scrollspy hide-mb">
+    <div class="inner_scrollspy">
+        <div class="container">
+            <div class="heading_dt">
+                <p class="txt1 inline">
+                    Tính năng
+
+                </p>
+                <p class="txt2">
+                    Tính năng nổi bật
+                </p>
+            </div>
+
+            <div class="box_tabs van_hanh">
+                <ul class="tabs_vanhanh unrequire_tabs">
+                    <li class="tab selectTabVanHanh">
+                        <a href="#tab_vh_01" id="vanhanh01">Vận hành</a>
+                    </li>
+                    <li class="tab selectTabVanHanh">
+                        <a href="#tab_vh_03" id="vanhanh03">An toàn</a>
+                    </li>
+                </ul>
+                <div id="tab_vh_01" class="content-tab">
+                    <div class="inner">
+                        <div class="products all_van_hanh">
+                            <ul class="owl-carousel slide-features" id="ulOperating">
+                                {% for vanhanh in van_hanh %}
+                                <li class="item">
+                                    <a>
+                                        <div class="inner">
+                                            <div class="img">
+                                                <img class="owl-lazy" data-src={{vanhanh.image}} alt={{vanhanh.title}}>
+                                            </div>
+                                            <div class="txt">
+                                                <div class="txt1">
+                                                    <p class="name">{{vanhanh.title}}</p>
+                                                </div>
+                                                <div class="txt2">
+                                                    <p class="desc">{{vanhanh.description}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab_vh_03" class="content-tab">
+                    <div class="inner">
+                        <div class="products all_van_hanh">
+                            <ul class="owl-carousel slide-features" id="ulSafe">
+                                {% for antoan in an_toan %}
+                                <li class="item">
+                                    <a>
+                                        <div class="inner">
+                                            <div class="img">
+                                                <img class="owl-lazy" data-src={{antoan.image}} alt={{antoan.title}}>
+                                            </div>
+                                            <div class="txt">
+                                                <div class="txt1">
+                                                    <p class="name">{{antoan.title}}</p>
+                                                </div>
+                                                <div class="txt2">
+                                                    <p class="desc">{{antoan.description}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Van hanh -->

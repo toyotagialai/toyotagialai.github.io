@@ -1,0 +1,53 @@
+<!--Thu vien-->
+
+<div id="sec_dt_03" class="scrollspy">
+    <div class="imgthuvien only-show-mb" id="thuvien_mb">
+        <div class="heading_dt">
+            <h4 style="margin: 10px;text-decoration: underline" >Thư viện </h4>
+        </div>
+        <div class="owl-carousel owl-theme">
+            {% for image in car.thuvien1 %}
+            <div class="item">
+                <img src={{image}} alt="">
+            </div>
+            {% endfor %}
+        </div>
+        <div class="owl-carousel owl-theme">
+            {% for image in car.thuvien2 %}
+            <div class="item">
+                <img src={{image}} alt="">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="inner_scrollspy">
+        <div class="thuvien clearfix hide-mb">
+            <div class="heading_dt">
+                <p class="txt1">Thư viện
+
+                </p>
+            </div>
+            <div class="list_01">
+                {% for image in car.thuvien1 %}
+                <div class="item animated fadeInRightShort delay-150 go">
+                    <a class="">
+                        <img class="lazy" src='/Content/images/notfound/notfound-thumb-gallery.png?w=340&amp;h=170&mode=crop' data-original={{image}}
+                            alt="">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="list_02">
+                {% for image in car.thuvien2 %}
+                <div class="item animated fadeInRightShort delay-150 go">
+                    <a class="">
+                        <img class="lazy" src='/Content/images/notfound/notfound-thumb-gallery.png?w=340&amp;h=170&mode=crop' data-original={{image}}
+                            alt="">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!--End of Thu vien-->

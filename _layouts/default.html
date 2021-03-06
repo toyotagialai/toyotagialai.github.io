@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
+{% include head.html %}
+
+<body ng-app="ToyotaDealer" class="tmv">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5WFF2R" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Co the bo index -->
+    <div id="wrapper" class="bstyle1 index">
+        {% include header.html %} {{content}} {% include hotline.html %} {% include avatar.html %} {% include footer.html %} {% include
+        sendMail.html %}
+        {% comment %} {% include modal.html %} {% endcomment %}
+        
+    </div>
+    {% comment %} {% include tool_icon_right.html %} {% endcomment %}
+
+      
+
+
+    <!-- CSS -->
+    {% include css/tmv.html %}    
+    {% include css/bpopup-mini.html %}    
+    
+    <!-- JS -->
+    {% include script/moment.html %}
+    {% include script/mobile-detect.min.html %}
+    {% include script/responsive-javascript.html %}    
+    {% include script/libs.html %}
+    {% include script/main.min.html %}
+    {% include script/mainMain.min.html %}
+    {% include script/app.html %}
+    {% include script/ci-validate.html %}
+    {% include script/pages.html %}
+    {% include script/jquery.bpopup.min.html %}
+</body>
+
+</html>

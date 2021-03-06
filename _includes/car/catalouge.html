@@ -1,0 +1,33 @@
+<!--Tai catalouge-->
+{% assign catalouge = car.catalouge %}
+<div id="sec_dt_08" class="scrollspy">
+    <div class="container">
+        <div class="heading_dt">
+            <p class="txt1 inline">Tải catalogue
+
+            </p>
+        </div>
+    </div>
+    <div class="inner_scrollspy">
+        <div class="container">
+            <div class="list_catalogue">
+                {% for file in catalouge %}
+                <div class="item_ct">
+                    <div class="inner">
+                        <a href={{file.link}} target="_blank">
+
+                            <span class="file_icon">
+                                <img src="/Content/images/icon_files_pdf.png">
+                            </span>
+                            <span class="file_name">
+                                {{file.title}}
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!--End of Tai catalouge-->

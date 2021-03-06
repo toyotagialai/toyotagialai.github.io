@@ -1,0 +1,7 @@
+/server
+/node_modules
+/.vscode
+package-lock.json
+/_BACKUP
+_site
+.idea

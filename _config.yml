@@ -1,0 +1,19 @@
+title: 'Toyota Gia Lai'
+ogimage: '/assets/img/ngaoduky.jpg'
+permalink:    /:title
+baseurl: ''
+
+# Keywords of site
+keyword: 'Toyota Gia Lai '
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+RSS: false
+
+# Plugins
+gems: [jekyll-paginate]
+

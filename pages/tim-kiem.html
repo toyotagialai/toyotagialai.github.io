@@ -1,0 +1,59 @@
+---
+layout: default
+permalink: tim-kiem
+--- 
+
+<div id="banner02">
+    <div class="page_title">
+        <div class="container">
+            <h2 class="right-align">Tìm kiếm</h2>
+        </div>
+    </div>
+</div>
+<div id="content">
+    <div class="page_search" id="page_SearchTool">
+        <div class="tool-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col l4 s12 hide">
+                        <div class="input-field">
+                            <select id="ddlCate" class="browser-default">
+                                
+                                <option value="0" selected="">Tất cả chuyên mục</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col l7 s12">
+                        <div class="input-field">
+                            <input id="txtSearch" class="inSearchTextBox input" type="text" value="" placeholder="Từ khoá tìm kiếm">
+                            <span id="spError" style="display: none;color: #c8102e;margin: 5px 0;font-size: 0.9em;text-align: right;">Vui lòng nhập từ khóa</span>
+                            <button class="btnc btn-primary" onclick="processBeforeCall();">Tìm </button>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="waitingForSearch" style="display: none;">
+            <img src="/Content/images/searching.gif" style="display: block; margin: auto">
+        </div>
+        <div class="completeWaitingSearch" style="display: none;">
+            <div class="heading_dt" style="display: none" id="titleKetqua">
+                <div class="container"><p class="txt1">Tìm kiếm cho "<span id="spKeySearch"></span>": <span id="spCountResult"></span> kết quả</p></div>
+            </div>
+            <div class="list_result">
+                <div class="container">
+                    <ul id="contentResult"></ul>
+                    <div class="no-result" style="font-weight:600; font-size:1.6rem; margin:2rem 1rem; display: none">Không tìm thấy kết quả</div>
+                    <input type="hidden" value="" id="hdCurrentKey">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->

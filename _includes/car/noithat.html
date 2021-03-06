@@ -1,0 +1,57 @@
+<!-- Noi that -->
+{% assign noithat = car.noi_that_data %} 
+{% assign images = noithat.images %}
+{% if noithat.title != "" %}
+<div id="sec_dt_05" class="scrollspy">
+    <div class="imgthuvien only-show-mb">
+        <div class="heading_dt">
+            <h4 style="margin: 10px;text-decoration: underline">Nội Thất</h4>
+        </div>
+        <div class="owl-carousel owl-theme">
+            {% for image in images %}
+            <div class="item">
+                <img src={{image.img}} alt="">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="inner_scrollspy hide-mb">
+        <div class="noithat clearfix rows dpflex">
+            <div class="cols colleft">
+                <p class="img_banner">
+                    <img class="lazy" src="/Content/images/notfound/notfound-images.png" data-original={{noithat.thumb}}>
+                </p>
+            </div>
+            <div class="cols colright" style="background-image: url(/Content/images/detail_noithat_bg.png);">
+                <div class="cols_inner">
+                    <div class="cols_txt">
+                        <p class="name_dt">
+                            Nội Thất
+
+                        </p>
+                        <p class="txt_dt">
+                            {{noithat.title}}
+                        </p>
+                        <p class="txt_dt_2">
+                            {{noithat.description}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide_sm">
+            <div class="owl-carousel slide_img_sm">
+                {% for image in images %}
+                <div class="item">
+                    <a>
+                        <img class="owl-lazy" data-src={{image.img}}>
+                    </a>
+                    <div class="txt_sl">{{image.text}}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+<!-- End of Noi that -->

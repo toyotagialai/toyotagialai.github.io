@@ -1,0 +1,40 @@
+{% assign xe_khac = car.cac_mau_xe_khac  %}
+{% if xe_khac.size > 0 %}
+<!-- Start Cac Mau Xe Khac -->
+<div id="sec_dt_02" class="scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="heading_2_dt">Các mẫu {{ car.dong_xe }} khác</h2>
+            </div>
+        </div>
+
+        <div class="list_item_sm">
+                 {% for item in xe_khac %}
+                <div class="item_sm">
+                    <div class="inner_item_sm">
+                        <div class="img">
+                            <a class="changelink" data-href={{item.item_href}} href={{item.item_href}}>
+                                <img src={{item.item_image}} class="lazy" data-original={{item.item_image}} alt="Corolla Altis 2.0V Sport (CVT)"
+                                    style="display: inline;">
+                            </a>
+                        </div>
+                        <div class="txt">
+                            <div class="inner_txt">
+                                <p class="name_sm">
+                                    <a class="changelink" data-href={{item.item_href}} href={{item.item_href}}>
+                                    {{item.item_name}} </a>
+                                </p>
+                                <p class="price">
+                                    {{item.item_price}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Cac Mau Xe Khac -->
+{% endif %}

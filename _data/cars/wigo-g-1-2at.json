@@ -1,0 +1,955 @@
+{
+    "ten_xe": "Wigo G 1.2AT",
+    "dong_xe": "wigo",
+    "gia_xe": "405.000.000 <sup>VND</sup>",
+    "sapos": [
+        "Bắt trọn nhịp vui"
+    ],
+    "banner": "../data/news/3951/vg1iju.png",
+    "thong_tin_xe": [
+        "• Số chỗ ngồi : 5 chỗ",
+        "• Kiểu dáng : Hatchback",
+        "• Nhiên liệu : Xăng",
+        "• Xuất xứ : Xe nhập khẩu"
+    ],
+    "colors": [
+        {
+            "img": "../data/news/3951/color/Bac-AT2.png",
+            "cl": "Bạc 1E7",
+            "price": "405.000.000 <sup>VND</sup>",
+            "style": "background-color: #babdc1"
+        },
+        {
+            "img": "../data/news/3951/color/Cam-AT2.png",
+            "cl": "Cam R71",
+            "price": "405.000.000 <sup>VND</sup>",
+            "style": "background-color: #a22600"
+        },
+        {
+            "img": "../data/news/3951/color/Den-AT2.png",
+            "cl": "Đen X13",
+            "price": "405.000.000 <sup>VND</sup>",
+            "style": "background-color: #252526"
+        },
+        {
+            "img": "../data/news/3951/color/Do-AT2.png",
+            "cl": "Đỏ R40",
+            "price": "405.000.000 <sup>VND</sup>",
+            "style": "background-color: #b30506"
+        },
+        {
+            "img": "../data/news/3951/color/Trang-AT2.png",
+            "cl": "Trắng W09",
+            "price": "405.000.000 <sup>VND</sup>",
+            "style": "background-color: #eceded"
+        },
+        {
+            "img": "../data/news/3951/color/Xam-AT2.png",
+            "cl": "Xám 1G3",
+            "price": "405.000.000 <sup>VND</sup>",
+            "style": "background-color: #1b1d1e"
+        }
+    ],
+    "cac_mau_xe_khac": [
+        {
+            "item_name": "Wigo G 1.2 MT",
+            "item_price": "Gi&#xE1;: 345.000.000 <sup>VND</sup>",
+            "item_image": "/data/news/3953/3hbkcy.png",
+            "item_href": "wigo-g-1-2-mt?spy=sec_dt_01"
+        }
+    ],
+    "thuvien1": [
+        "../data/news/3951/1/brkrbz.png",
+        "../data/news/3951/1/zwzu1l.png",
+        "../data/news/3951/1/i3ocd1.png",
+        "../data/news/3951/1/o0pejq.png"
+    ],
+    "thuvien2": [
+        "../data/news/3951/1/p1vukc.png",
+        "../data/news/3951/1/pd1lrn.png",
+        "../data/news/3951/1/hovub5.png",
+        "../data/news/3951/1/ov2nmz.png"
+    ],
+    "ngoai_that_data": {
+        "title": "",
+        "description": "TOYOTA WIGO là mẫu xe nhỏ sở hữu ngoại hình đậm chất thể thao với ngôn ngữ thiết kế trẻ trung và nhiều lựa chọn về màu sắc. TOYOTA WIGO xứng đáng là chiếc xe hơi đầu tiên của bạn.",
+        "thumb": "../data/news/3951/3/4sd30w.png",
+        "images": [
+            {
+                "img": "../data/news/3951/3/pdrgxn.png",
+                "text": "Đầu xe TRD"
+            },
+            {
+                "img": "../data/news/3951/3/llhfhc.png",
+                "text": "Đầu xe"
+            },
+            {
+                "img": "../data/news/3951/3/hrnzbs.png",
+                "text": "Cụm đèn sau"
+            },
+            {
+                "img": "../data/news/3951/3/ogv0qu.png",
+                "text": "Cụm đèn trước"
+            },
+            {
+                "img": "../data/news/3951/3/oe1i14.png",
+                "text": "Đèn sương mù"
+            },
+            {
+                "img": "../data/news/3951/3/eso5nz.png",
+                "text": "Gương chiếu hậu"
+            },
+            {
+                "img": "../data/news/3951/3/i4v5c0.png",
+                "text": "Mâm xe"
+            },
+            {
+                "img": "../data/news/3951/3/mcehza.png",
+                "text": "Đuôi xe TRD"
+            },
+            {
+                "img": "../data/news/3951/3/s5z5bu.png",
+                "text": "Đuôi xe"
+            }
+        ]
+    },
+    "noi_that_data": {
+        "title": "Wigo G 1.2AT",
+        "description": "Sống động từng đường nét. Không gian nội thất rộng rãi cùng các tính năng được thiết kế thân thiện với người dùng.",
+        "thumb": "../data/news/3951/2/jsfkg4.png",
+        "images": [
+            {
+                "img": "../data/news/3951/2/kp3yf2.png",
+                "text": "Tay lái"
+            },
+            {
+                "img": "../data/news/3951/2/0jllno.png",
+                "text": "Màn hình DVD"
+            },
+            {
+                "img": "../data/news/3951/2/vnkz5r.png",
+                "text": "Khoang hành lí"
+            },
+            {
+                "img": "../data/news/3951/2/to4rr4.png",
+                "text": "Hệ thống điều hòa, âm thanh AT"
+            },
+            {
+                "img": "../data/news/3951/2/3qdrrn.png",
+                "text": "Cụm đồng hồ"
+            }
+        ]
+    },
+    "tinh_nang_noi_bat": {
+        "van_hanh": [
+            {
+                "image": "../data/news/3951/5/skzufd.png",
+                "title": "",
+                "description": "Các đường khí động học cá tính sắc nét cùng góc cản trước thấp, hạ trọng tâm, tạo phong cách thể thao chinh phục mọi..."
+            },
+            {
+                "image": "../data/news/3951/5/3rgtfg.png",
+                "title": "Hệ thống treo",
+                "description": "Hệ thống treo với thiết kế thông minh giúp TOYOTA WIGO vận hành êm mượt và ổn định."
+            },
+            {
+                "image": "../data/news/3951/5/2haqyy.png",
+                "title": "Động cơ",
+                "description": "TOYOTA WIGO được trang bị khả năng tăng tốc tốt, tiết kiệm nhiên liệu và bền bỉ xuyên suốt chặng đường dài."
+            }
+        ],
+        "an_toan": [
+            {
+                "image": "../data/news/3951/4/va1vex.png",
+                "title": "Túi khí AT",
+                "description": "2 túi khí (người lái và hành khách phía trước), kết hợp cùng dây đai an toàn 3 điểm cho tất cả các vị trí đảm bảo an..."
+            },
+            {
+                "image": "../data/news/3951/4/s0b5by.jpg",
+                "title": "ISOFIX",
+                "description": "Điểm kết nối ghế an toàn trẻ em với tiêu chuẩn ISOFIX giúp hành khách hoàn toàn yên tâm khi mang theo con nhỏ trong..."
+            },
+            {
+                "image": "../data/news/3951/4/ipi4vk.png",
+                "title": "Hệ thống chống bó cứng phanh",
+                "description": "Đươc trang bị phanh ABS giúp người lái có thể điều khiển xe an toàn trong những tình huống nguy cấp."
+            },
+            {
+                "image": "../data/news/3951/4/ulx4ju.png",
+                "title": "Dây đeo an toàn",
+                "description": "2 túi khí (người lái và hành khách phía trước), kết hợp cùng dây đai an toàn 3 điểm cho tất cả các vị trí đảm bảo an..."
+            }
+        ]
+    },
+    "thong_so_ky_thuat": [
+        {
+            "title": "Động cơ & Khung xe",
+            "href": "tab_dt_2",
+            "body": [
+                [
+                    "Kích thước",
+                    "Kích thước tổng thể bên ngoài (D x R x C) (mm x mm x mm)",
+                    "3660 x 1600 x 1520"
+                ],
+                [
+                    "",
+                    "Kích thước tổng thể bên trong (D x R x C) (mm x mm x mm)",
+                    "1940 x 1365 x 1235"
+                ],
+                [
+                    "",
+                    "Chiều dài cơ sở (mm)",
+                    "2455"
+                ],
+                [
+                    "",
+                    "Chiều rộng cơ sở (Trước/ sau) (mm)",
+                    "1410/1405"
+                ],
+                [
+                    "",
+                    "Khoảng sáng gầm xe (mm)",
+                    "160"
+                ],
+                [
+                    "",
+                    "Góc thoát (Trước/Sau) (độ/degree)",
+                    "N/A"
+                ],
+                [
+                    "",
+                    "Bán kính vòng quay tối thiểu (m)",
+                    "4,7"
+                ],
+                [
+                    "",
+                    "Trọng lượng không tải (kg)",
+                    "890"
+                ],
+                [
+                    "",
+                    "Trọng lượng toàn tải (kg)",
+                    "1290"
+                ],
+                [
+                    "",
+                    "Dung tích bình nhiên liệu (L)",
+                    "33"
+                ],
+                [
+                    "Động cơ",
+                    "Loại động cơ",
+                    "3NR-VE (1.2L)"
+                ],
+                [
+                    "",
+                    "Số xy lanh",
+                    "4"
+                ],
+                [
+                    "",
+                    "Bố trí xy lanh",
+                    "Thẳng hàng/In line"
+                ],
+                [
+                    "",
+                    "Dung tích xy lanh (cc)",
+                    "1197"
+                ],
+                [
+                    "",
+                    "Tỉ số nén",
+                    "11,5"
+                ],
+                [
+                    "",
+                    "Hệ thống nhiên liệu",
+                    "Phun xăng điện tử/ Electronic fuel injection"
+                ],
+                [
+                    "",
+                    "Loại nhiên liệu",
+                    "Xăng/Petrol"
+                ],
+                [
+                    "",
+                    "Công suất tối đa (kW (Mã lực) @ vòng/phút)",
+                    "(64)/86@6000"
+                ],
+                [
+                    "",
+                    "Mô men xoắn tối đa (Nm @ vòng/phút)",
+                    "107 @ 4200"
+                ],
+                [
+                    "",
+                    "Tiêu chuẩn khí thải",
+                    "Euro 4"
+                ],
+                [
+                    "",
+                    "Hệ thống ngắt/ mở động cơ tự động",
+                    "Không có/Without"
+                ],
+                [
+                    "Chế độ lái",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống truyền động",
+                    "",
+                    "Dẫn động cầu trước/FWD"
+                ],
+                [
+                    "Hộp số",
+                    "",
+                    "Số tự động 4 cấp/4AT"
+                ],
+                [
+                    "Hệ thống treo",
+                    "Trước",
+                    "Macpherson"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Phụ thuộc, Dầm xoán"
+                ],
+                [
+                    "Hệ thống lái",
+                    "Trợ lực tay lái",
+                    "Điện/Power"
+                ],
+                [
+                    "",
+                    "Hệ thống tay lái tỉ số truyền biến thiên (VGRS)",
+                    "Không có/Without"
+                ],
+                [
+                    "Vành & lốp xe",
+                    "Loại vành",
+                    "Mâm đúc/Alloy"
+                ],
+                [
+                    "",
+                    "Kích thước lốp",
+                    "175/65R14"
+                ],
+                [
+                    "",
+                    "Lốp dự phòng",
+                    "Thép/Steel"
+                ],
+                [
+                    "Phanh",
+                    "Trước",
+                    "Đĩa tản nhiệt  13\"/Ventilated disc 13\""
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Tang trống/Drum"
+                ],
+                [
+                    "Tiêu thụ nhiên liệu",
+                    "Kết hợp",
+                    "5,3"
+                ],
+                [
+                    "",
+                    "Trong đô thị",
+                    "6,87"
+                ],
+                [
+                    "",
+                    "Ngoài đô thị",
+                    "4,36"
+                ]
+            ]
+        },
+        {
+            "title": "Ngoại thất",
+            "href": "tab_dt_3",
+            "body": [
+                [
+                    "Cụm đèn trước",
+                    "Đèn chiếu gần",
+                    "Halogen dạng bóng chiếu/ Halogen projector"
+                ],
+                [
+                    "",
+                    "Đèn chiếu xa",
+                    "Halogen phản xạ đa hướng/ Halogen reflector"
+                ],
+                [
+                    "",
+                    "Đèn chiếu sáng ban ngày",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Hệ thống rửa đèn",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Hệ thống điều khiển đèn tự động",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Hệ thống nhắc nhở đèn sáng",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Hệ thống mở rộng góc chiếu tự động",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Hệ thống cân bằng góc chiếu",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chế độ đèn chờ dẫn đường",
+                    "Không có/Without"
+                ],
+                [
+                    "Cụm đèn sau",
+                    "",
+                    "LED"
+                ],
+                [
+                    "Đèn báo phanh trên cao",
+                    "",
+                    "LED"
+                ],
+                [
+                    "Đèn sương mù",
+                    "Trước",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Không có/Without"
+                ],
+                [
+                    "Gương chiếu hậu ngoài",
+                    "Chức năng điều chỉnh điện",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Chức năng gập điện",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Tích hợp đèn báo rẽ",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Tích hợp đèn chào mừng",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Màu",
+                    "Cùng màu thân xe/Body color"
+                ],
+                [
+                    "",
+                    "Chức năng tự điều chỉnh khi lùi",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Bộ nhớ vị trí",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng sấy gương",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng chống bám nước",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng chống chói tự động",
+                    "Không có/Without"
+                ],
+                [
+                    "Gạt mưa",
+                    "Trước",
+                    "Gián đoạn/intermittent"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Gián đoạn/intermittent"
+                ],
+                [
+                    "Chức năng sấy kính sau",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Ăng ten",
+                    "",
+                    "Dạng thường/Piller"
+                ],
+                [
+                    "Tay nắm cửa ngoài",
+                    "",
+                    "Cùng màu thân xe/Body color"
+                ],
+                [
+                    "Bộ quây xe thể thao",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Cản xe",
+                    "Trước",
+                    "Cùng màu thân xe/Colored"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Cùng màu thân xe/Colored"
+                ],
+                [
+                    "Lưới tản nhiệt",
+                    "Trước",
+                    "Mạ/Plating"
+                ],
+                [
+                    "Chắn bùn",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Ống xả kép",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Cánh hướng gió nóc xe",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Thanh đỡ nóc xe",
+                    "",
+                    "Không có/Without"
+                ]
+            ]
+        },
+        {
+            "title": "Nội thất",
+            "href": "tab_dt_4",
+            "body": [
+                [
+                    "Tay lái",
+                    "Loại tay lái",
+                    "3 chấu/3-spoke"
+                ],
+                [
+                    "",
+                    "Chất liệu",
+                    "Urethane"
+                ],
+                [
+                    "",
+                    "Nút bấm điều khiển tích hợp",
+                    "Âm thanh/Audio"
+                ],
+                [
+                    "",
+                    "Điều chỉnh",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Lẫy chuyển số",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Bộ nhớ vị trí",
+                    "Không có/Without"
+                ],
+                [
+                    "Gương chiếu hậu trong",
+                    "",
+                    "2 chế độ ngày và đêm/Day & night"
+                ],
+                [
+                    "Tay nắm cửa trong",
+                    "",
+                    "Mạ/Plating"
+                ],
+                [
+                    "Cụm đồng hồ",
+                    "Loại đồng hồ",
+                    "Analog"
+                ],
+                [
+                    "",
+                    "Đèn báo chế độ Eco",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Chức năng báo lượng tiêu thụ nhiên liệu",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng báo vị trí cần số",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Màn hình hiển thị đa thông tin",
+                    "Có/With"
+                ],
+                [
+                    "Cửa sổ trời",
+                    "",
+                    "Không có/Without"
+                ]
+            ]
+        },
+        {
+            "title": "Ghế",
+            "href": "tab_dt_203",
+            "body": [
+                [
+                    "Chất liệu bọc ghế",
+                    "",
+                    "Nỉ/Fabric"
+                ],
+                [
+                    "Ghế trước",
+                    "Loại ghế",
+                    "Thường/Normal"
+                ],
+                [
+                    "",
+                    "Điều chỉnh ghế lái",
+                    "Chỉnh tay 4 hướng/4 way manual"
+                ],
+                [
+                    "",
+                    "Điều chỉnh ghế hành khách",
+                    "Chỉnh tay 4 hướng/4 way manual"
+                ],
+                [
+                    "",
+                    "Bộ nhớ vị trí",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng thông gió",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng sưởi",
+                    "Không có/Without"
+                ],
+                [
+                    "Ghế sau",
+                    "Hàng ghế thứ hai",
+                    "Gập lưng ghế/Fold"
+                ],
+                [
+                    "",
+                    "Hàng ghế thứ ba",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Hàng ghế thứ bốn",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Hàng ghế thứ năm",
+                    "Không có/Without"
+                ]
+            ]
+        },
+        {
+            "title": "Tiện nghi",
+            "href": "tab_dt_5",
+            "body": [
+                [
+                    "Rèm che nắng kính sau",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Rèm che nắng cửa sau",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống điều hòa",
+                    "Trước",
+                    "Chỉnh tay/Manual"
+                ],
+                [
+                    "Cửa gió sau",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hộp làm mát",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống âm thanh",
+                    "Đầu đĩa",
+                    "DVD 7\""
+                ],
+                [
+                    "",
+                    "Số loa",
+                    "4"
+                ],
+                [
+                    "",
+                    "Cổng kết nối AUX",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Cổng kết nối USB",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Kết nối Bluetooth",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Hệ thống điều khiển bằng giọng nói",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng điều khiển từ hàng ghế sau",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Kết nối wifi",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Hệ thống đàm thoại rảnh tay",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Kết nối điện thoại thông minh",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Kết nối HDMI",
+                    "Có/With"
+                ],
+                [
+                    "Chìa khóa thông minh & khởi động bằng nút bấm",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Khóa cửa điện",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Chức năng khóa cửa từ xa",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Cửa sổ điều chỉnh điện",
+                    "",
+                    "Có, tự động xuống ghế lái/With, Driver auto down"
+                ],
+                [
+                    "Cốp điều khiển điện",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống sạc không dây",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống điều khiển hành trình",
+                    "",
+                    "Không có/Without"
+                ]
+            ]
+        },
+        {
+            "title": "An ninh",
+            "href": "tab_dt_8",
+            "body": [
+                [
+                    "Hệ thống báo động",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống mã hóa khóa động cơ",
+                    "",
+                    "Có/With"
+                ]
+            ]
+        },
+        {
+            "title": "An toàn chủ động",
+            "href": "tab_dt_6",
+            "body": [
+                [
+                    "Hệ thống chống bó cứng phanh",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống hỗ trợ lực phanh khẩn cấp",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống phân phối lực phanh điện tử",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống ổn định thân xe",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống kiểm soát lực kéo",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống hỗ trợ khởi hành ngang dốc",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống hỗ trợ khởi hành đỗ đèo",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống lựa chọn vận tốc vượt địa hình",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Hệ thống thích nghi địa hình",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Đèn báo phanh khẩn cấp",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Camera lùi",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Cảm biến hỗ trợ đỗ xe",
+                    "Sau",
+                    "2"
+                ],
+                [
+                    "",
+                    "Góc trước",
+                    "0"
+                ],
+                [
+                    "",
+                    "Góc sau",
+                    "0"
+                ]
+            ]
+        },
+        {
+            "title": "An toàn bị động",
+            "href": "tab_dt_7",
+            "body": [
+                [
+                    "Túi khí",
+                    "Túi khí người lái & hành khách phía trước",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Túi khí bên hông phía trước",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Túi khí rèm",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Túi khí bên hông phía sau",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Túi khí đầu gối người lái",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Túi khí đầu gối hành khách",
+                    "Không có/Without"
+                ],
+                [
+                    "Dây đai an toàn",
+                    "Trước",
+                    "3 điểm ELR, 5 vị trí/ 3 points ELRx5"
+                ]
+            ]
+        }
+    ],
+    "catalouge": [
+        {
+            "title": "Catalogue Wigo 25092018",
+            "link": "../data/news/3951/ext/WIGO_catalogue_M.pdf"
+        }
+    ]
+}

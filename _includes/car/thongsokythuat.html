@@ -1,0 +1,94 @@
+<!--Thong so ky thuat-->
+{% assign thongsokythuat = car.thong_so_ky_thuat %}
+<div id="sec_dt_07" class="scrollspy">
+    <div class="inner_scrollspy">
+        <div class="container">
+            <div class="heading_dt">
+                <p class="txt1">
+                    Thông số kỹ thuật
+
+                </p>
+                <p class="txt2">
+                    Động cơ xe và
+                    <br /> khả năng vận hành
+                </p>
+            </div>
+            <div class="box_tabs thong_so_ky_thuat animated fadeInUpShort go delay-150">
+                {% assign item0 = thongsokythuat[0] %}
+                <ul class="tabs tabs-fixed-width">
+                    <li class="tab">
+                        <a href={{item0.href | prepend: "#"}} title={{item0.title}} class="active">{{item0.title}}</a>
+                    </li>
+                    {% for item in thongsokythuat offset:1 %}
+                    <li class="tab">
+                        <a href={{item.href | prepend: "#" }} title="{{item.title}}">{{item.title}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+
+
+
+
+
+                {% assign item0_body = item0.body %}
+                <div id={{item0.href}} class="content-tab content-spec" data-catspec="2">
+                    <div class="inner">
+                        <table class="tbltk striped">
+                            <tbody>
+                                {% for data in item0_body %}
+                                <tr class='lv1 group-2 notnull'>
+                                    <td style="width: 30%" class='th'>
+                                        <b>{{data[0]}}</b>
+                                    </td>
+                                    <td style="width: 30%" class='td'>{{data[1]}}</td>
+                                    <td class="hide"></td>
+                                    <td style="width: 40%">
+                                        <table>
+                                            <tbody>
+                                                <tr class='lv2'>
+                                                    <td>{{data[2]}}</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% for item in thongsokythuat offset:1 %} {% assign body = item.body %}
+                <div id={{item.href}} class="content-tab content-spec" style="display: none;">
+                    <div class="inner">
+                        <table class="tbltk striped">
+                            <tbody>
+                                {% for data in body %}
+                                <tr class='lv1 group-2 notnull'>
+                                    <td style="width: 30%" class='th'>
+                                        <b>{{data[0]}}</b>
+                                    </td>
+                                    <td style="width: 30%" class='td'>{{data[1]}}</td>
+                                    <td class="hide"></td>
+                                    <td style="width: 40%">
+                                        <table>
+                                            <tbody>
+                                                <tr class='lv2'>
+                                                    <td>{{data[2]}}</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--End of Thong so ky thuat-->

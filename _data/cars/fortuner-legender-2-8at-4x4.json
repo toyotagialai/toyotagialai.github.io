@@ -1,0 +1,943 @@
+{
+    "ten_xe": "Fortuner Legender 2.8AT 4x4",
+    "dong_xe": "Fortuner",
+    "gia_xe": "1.434.000.000 <sup>VND</sup>",
+    "sapos": [
+        "Kiến tạo hành trình"
+    ],
+    "thong_tin_xe": [
+        "• Số chỗ ngồi : 7 chỗ",
+        "• Kiểu dáng : SUV",
+        "• Nhiên liệu : Dầu",
+        "• Xuất xứ : Xe trong nước"
+    ],
+    "colors": [
+        {
+            "img": "../data/news/6494/color/01Legender(600x249)px_Trang.png",
+            "cl": "Trắng ngọc trai - 070",
+            "price": "1.434.000.000 <sup>VND</sup>",
+            "style": "background-color: #f7f7f7"
+        },
+        {
+            "img": "../data/news/6494/color/01Legender(600x249)px_Bac.png",
+            "cl": "Bạc - 1D6",
+            "price": "1.426.000.000 <sup>VND</sup>",
+            "style": "background-color: #C4C4C4"
+        },
+        {
+            "img": "../data/news/6494/color/01Legender(600x249)px_Dong.png",
+            "cl": "Đồng - 4V8",
+            "price": "1.426.000.000 <sup>VND</sup>",
+            "style": "background-color: #908b85"
+        },
+        {
+            "img": "../data/news/6494/color/01Legender(600x249)px_Nau.png",
+            "cl": "Nâu - 4W9",
+            "price": "1.426.000.000 <sup>VND</sup>",
+            "style": "background-color: #513e3a"
+        },
+        {
+            "img": "../data/news/6494/color/01Legender(600x249)px_Den.png",
+            "cl": "Đen - 218",
+            "price": "1.426.000.000 <sup>VND</sup>",
+            "style": "background-color: #16160E"
+        }
+    ],
+    "cac_mau_xe_khac": [
+        {
+            "item_name": "Fortuner 2.7AT 4x4",
+            "item_price": "Gi&#xE1; t&#x1EEB;: 1,230,000,000 <sup>VND</sup>",
+            "item_href": "fortuner-2-7at-4x4-tbu?spy=sec_dt_01",
+            "item_image": "data/news/6470/5s0i3c.png"
+        },
+        {
+            "item_name": "Fortuner 2.7AT 4x2",
+            "item_price": "Gi&#xE1; t&#x1EEB;: 1,130,000,000 <sup>VND</sup>",
+            "item_href": "fortuner-2-7at-4x2-tbu?spy=sec_dt_01",
+            "item_image": "data/news/6471/nphkq4.png"
+        },
+        {
+            "item_name": "Fortuner Legender 2.4AT 4X2",
+            "item_price": "Gi&#xE1; t&#x1EEB;: 1,195,000,000 <sup>VND</sup>",
+            "item_href": "fortuner-legender-2-4at-4x2?spy=sec_dt_01",
+            "item_image": "data/news/6495/llgkmt.png"
+        },
+        {
+            "item_name": "Fortuner 2.4AT 4x2",
+            "item_price": "Gi&#xE1; t&#x1EEB;: 1,080,000,000 <sup>VND</sup>",
+            "item_href": "fortuner-2-4at-4x2?spy=sec_dt_01",
+            "item_image": "data/news/6496/jlyh4t.png"
+        },
+        {
+            "item_name": "Fortuner 2.4MT 4x2",
+            "item_price": "Gi&#xE1; t&#x1EEB;: 995,000,000 <sup>VND</sup>",
+            "item_href": "fortuner-2-4mt-4x2?spy=sec_dt_01",
+            "item_image": "data/news/6497/eerdzt.png"
+        },
+        {
+            "item_name": "Fortuner 2.8AT 4x4",
+            "item_price": "Gi&#xE1; t&#x1EEB;: 1,388,000,000 <sup>VND</sup>",
+            "item_href": "fortuner-2-8at-4x4?spy=sec_dt_01",
+            "item_image": "data/news/6499/y5b1nn.png"
+        }
+    ],
+    "thuvien1": [
+        "data/news/6494/1/r0wfy5.jpg?w=340&h=170&mode=crop",
+        "data/news/6494/1/eyctg1.jpg?w=340&h=170&mode=crop",
+        "data/news/6494/1/tviz13.jpg?w=340&h=170&mode=crop",
+        "data/news/6494/1/3gnlck.jpg?w=340&h=170&mode=crop"
+    ],
+    "thuvien2": [],
+    "ngoai_that_data": {
+        "title": "Dáng vẻ bề thế & sang trọng",
+        "description": "Một phiên bản nâng tầm vị thế của Fortuner. Mạnh mẽ đầy cá tính. Bóng bẩy đậm chất SUV.",
+        "thumb": "data/news/6494/3/s0rvf1.jpg",
+        "images": [
+            {
+                "text": "Đuôi xe",
+                "img": "data/news/6494/3/lgj5xz.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Đầu xe",
+                "img": "data/news/6494/3/lnocr3.png?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Cụm đèn trước",
+                "img": "data/news/6494/3/barcs4.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Gương chiếu hậu bên ngoài",
+                "img": "data/news/6494/3/jwxe4c.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Phần hông xe",
+                "img": "data/news/6494/3/ypubbf.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Cụm đèn sau",
+                "img": "data/news/6494/3/fvoas4.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Mâm xe",
+                "img": "data/news/6494/3/bxlzyd.jpg?w=334&h=240&mode=crop"
+            }
+        ]
+    },
+    "noi_that_data": {
+        "title": "Nội thất hoàn hảo,tiện nghi vượt trội",
+        "description": "Không gian nội thất hiện đại, màu nội thất đen-đỏ cực thể thao, cùng với những tính năng tiện ích hiện đại mang đến sự thoải mái tối ưu. Mỗi hành trình với Fortuner là một trải nghiệm xứng tầm đẳng cấp.",
+        "thumb": "data/news/6494/2/zmttdj.jpg",
+        "images": [
+            {
+                "text": "Không gian nội thất",
+                "img": "data/news/6494/2/fsl5ri.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Ghế ngồi",
+                "img": "data/news/6494/2/ovyrjm.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Hệ thống âm thanh và điều hoà",
+                "img": "data/news/6494/2/ogm5aq.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Bảng đồng hồ táp lô",
+                "img": "data/news/6494/2/allh3h.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Thiết kế thể thao",
+                "img": "data/news/6494/2/b1ekh2.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Nút bấm khởi động",
+                "img": "data/news/6494/2/vqvrf5.jpg?w=334&h=240&mode=crop"
+            },
+            {
+                "text": "Hộp để đồ có khả năng làm mát",
+                "img": "data/news/6494/2/2bcnsc.png?w=334&h=240&mode=crop"
+            }
+        ]
+    },
+    "tinh_nang_noi_bat": {
+        "van_hanh": [
+            {
+                "title": "Động cơ (1 GD)",
+                "description": "Ở 2 phiên bản 2.8L, với những tinh chỉnh trong thiết kế, giúp động cơ của Fortuner thuộc TOP động cơ mạnh nhất phân...",
+                "image": "data/news/6494/5/1psqhj.jpg?w=260&h=130&mode=crop"
+            },
+            {
+                "title": "Hộp số",
+                "description": "Hộp số tự động 6 cấp giúp chuyển số nhịp nhàng, tăng tốc tốt hơn, vận hành mượt mà hơn, và tiết kiệm nhiên liệu hơn.",
+                "image": "data/news/6494/5/p1dgox.jpg?w=260&h=130&mode=crop"
+            },
+            {
+                "title": "Khung gầm",
+                "description": "Khung gầm kiên cố, chắc chắn, đích thực là chiếc SUV đẳng cấp.",
+                "image": "data/news/6494/5/lnrxf5.png?w=260&h=130&mode=crop"
+            },
+            {
+                "title": "Hệ thống treo",
+                "description": "Hệ thống treo với tay đòn kép ở phía trước và liên kết bốn điểm ở phía sau nhằm giảm tối đa độ rung lắc,cho cảm giác...",
+                "image": "data/news/6494/5/rjdlxs.png?w=260&h=130&mode=crop"
+            },
+            {
+                "title": "Hệ thống gài cầu điện tử",
+                "description": "Vận hành mạnh mẽ mà vẫn tiện nghi và dễ sử dụng với cơ chế gài cầu điện. Bên cạnh đó, tính năng khóa vi sai cầu sau...",
+                "image": "data/news/6494/5/4zprjx.jpg?w=260&h=130&mode=crop"
+            }
+        ],
+        "an_toan": [
+            {
+                "image": "../data/news/6494/4/4j1oib.png",
+                "title": "Camera toàn cảnh 360",
+                "description": "Camera toàn cảnh 360 được trang bị trên 2 phiên bản Legender và phiên bản 2.8L tiêu chuẩn, gồm 4 camera (trước, sau,..."
+            },
+            {
+                "image": "../data/news/6494/4/n4rsg2.jpg",
+                "title": "Hệ thống cảnh báo tiền va chạm (PCS)",
+                "description": "Là hệ thống an toàn chủ động, khi phát hiện va chạm có thể xảy ra với phương tiện khác, hệ thống sẽ cảnh báo người lái..."
+            },
+            {
+                "image": "../data/news/6494/4/t1mjh2.jpg",
+                "title": "Hệ thống cảnh báo chệch làn đường (LDA)",
+                "description": "Hệ thống cảnh báo người lái bằng âm thanh và đèn hiệu cảnh báo khi xe bắt đầu rời khỏi làn đường mà không bật tín hiệu..."
+            },
+            {
+                "image": "../data/news/6494/4/rpu15f.jpg",
+                "title": "Hệ thống kiểm soát hành trình chủ động...",
+                "description": "Là công nghệ an toàn chủ động sử dụng radar gắn dưới lưới tản nhiệt phía trước cùng với camera để phát hiện các phương..."
+            },
+            {
+                "image": "../data/news/6494/4/dz3tns.png",
+                "title": "Khung xe GOA",
+                "description": "Khung xe có các vùng co rụm phía trước, phía sau giúp hấp thụ tốt các xung lực va đập, ngoài ra các thanh tăng cứng bên..."
+            },
+            {
+                "image": "../data/news/6494/4/swl5dv.png",
+                "title": "Camera lùi",
+                "description": "Camera lùi tăng khả năng quan sát chướng ngại vật giúp người lái an tâm hơn khi lùi xe."
+            },
+            {
+                "image": "../data/news/6494/4/lm4z2i.png",
+                "title": "Đèn báo phanh trên cao",
+                "description": "Đèn báo phanh trên cao sử dụng công nghệ LED giúp tăng cường tín hiệu cảnh báo khi phanh đối với phương tiện hoặc người..."
+            },
+            {
+                "image": "../data/news/6494/4/jdjb5c.png",
+                "title": "Tính năng nháy đèn khi phanh khẩn cấp...",
+                "description": "Đèn cảnh báo nguy hiểm của xe sẽ tự động nháy sáng trong tình huống người lái phanh gấp. Nhờ đó sẽ cảnh báo cho các xe..."
+            },
+            {
+                "image": "../data/news/6494/4/bm1dah.png",
+                "title": "Hệ thống kiểm soát lực kéo",
+                "description": "Hệ thống A-TRC tác động lên công suất động cơ và lực phanh ở mỗi bánh xe, nhờ đó giúp chiếc xe có thể dễ dàng tăng tốc..."
+            },
+            {
+                "image": "../data/news/6494/4/t3ghqe.png",
+                "title": "Hệ thống hỗ trợ đổ đèo",
+                "description": "Hỗ trợ người lái trong các tình huống xuống dốc, đặc biệt hữu hiệu trong các địa hình khó khăn. Mang đến khả năng vượt..."
+            },
+            {
+                "image": "../data/news/6494/4/jv02fe.png",
+                "title": "Hệ thống kiểm soát móc kéo",
+                "description": "Hệ thống kiểm soát móc kéo giúp đảm bảo tính ma sát của bề mặt lốp xe với mặt đường giúp tăng cường khả năng ổn định..."
+            },
+            {
+                "image": "../data/news/6494/4/vsi4to.png",
+                "title": "Hệ thống hỗ trợ khởi hành ngang dốc...",
+                "description": "Khi người lái chuyển từ chân phanh sang chân ga để khởi hành ngang dốc, hệ thống HAC sẽ tự động tác ộng phanh tới cả 4..."
+            },
+            {
+                "image": "../data/news/6494/4/nw1uni.png",
+                "title": "Hệ thống cân bằng điện tử (VSC)",
+                "description": "Hệ thống VSC kiểm soát công suất động cơ và phân bổ lực phanh hợp lý tới từng bánh xe, nhờ đó giảm thiểu nguy cơ mất..."
+            },
+            {
+                "image": "../data/news/6494/4/hjj2ds.png",
+                "title": "Hệ thống hỗ trợ lực phanh khẩn cấp",
+                "description": "Hệ thống hỗ trợ lực phanh khẩn cấp BA tự động gia tăng thêm lực phanh trong trường hợp khẩn cấp, giúp người lái tự tin..."
+            },
+            {
+                "image": "../data/news/6494/4/evcylp.png",
+                "title": "Hệ thống chống bó cứng phanh (ABS)",
+                "description": "Khi được kích hoạt bằng cách đạp phanh dứt khoát, hệ thống chống bó cứng phanh ABS sẽ tự động nhấp nhả phanh liên tục,..."
+            },
+            {
+                "image": "../data/news/6494/4/dtvxjm.jpg",
+                "title": "Hệ thống túi khí",
+                "description": "Fortuner thế hệ đột phá được trang bị hệ thống túi khí hiện đại giúp giảm thiểu tối đa chấn thương cho người lái và..."
+            },
+            {
+                "image": "../data/news/6494/4/fe1wrg.png",
+                "title": "Hệ thống phân phối lực phanh điện tử...",
+                "description": "Hệ thống phân phối lực phanh điện tử EBD phân bổ lực phanh hợp lý lên các bánh xe, giúp nâng cao hiệu quả phanh, đặc..."
+            }
+        ]
+    },
+    "thong_so_ky_thuat": [
+        {
+            "title": "Động cơ & Khung xe",
+            "href": "tab_dt_2",
+            "body": [
+                [
+                    "Kích thước",
+                    "Kích thước tổng thể bên ngoài (D x R x C) (mm x mm x mm)",
+                    "4795 x 1855 x 1835"
+                ],
+                [
+                    "",
+                    "Chiều dài cơ sở (mm)",
+                    "2745"
+                ],
+                [
+                    "",
+                    "Chiều rộng cơ sở (Trước/sau) (mm)",
+                    "1545/1555"
+                ],
+                [
+                    "",
+                    "Khoảng sáng gầm xe (mm)",
+                    "279"
+                ],
+                [
+                    "",
+                    "Bán kính vòng quay tối thiểu (m)",
+                    "5.8"
+                ],
+                [
+                    "",
+                    "Trọng lượng không tải (kg)",
+                    "2140"
+                ],
+                [
+                    "",
+                    "Trọng lượng toàn tải (kg)",
+                    "2735"
+                ],
+                [
+                    "",
+                    "Dung tích bình nhiên liệu (L)",
+                    "80"
+                ],
+                [
+                    "Động cơ xăng",
+                    "Loại động cơ",
+                    "1GD-FTV (2.8L)"
+                ],
+                [
+                    "",
+                    "Số xy lanh",
+                    "4"
+                ],
+                [
+                    "",
+                    "Bố trí xy lanh",
+                    "Thẳng hàng/In line"
+                ],
+                [
+                    "",
+                    "Dung tích xy lanh (cc)",
+                    "2755"
+                ],
+                [
+                    "",
+                    "Hệ thống nhiên liệu",
+                    "Phun nhiên liệu trực tiếp sử dụng đường ống dẫn chung, tăng áp biến thiên/Common rail direct injection & Variable nozzle turborcharger (VNT)"
+                ],
+                [
+                    "",
+                    "Loại nhiên liệu",
+                    "Dầu/Diesel"
+                ],
+                [
+                    "",
+                    "Công suất tối đa ((KW) HP/ vòng/phút)",
+                    "150 (201)/3400"
+                ],
+                [
+                    "",
+                    "Mô men xoắn tối đa (Nm @ vòng/phút)",
+                    "500/1600"
+                ],
+                [
+                    "",
+                    "Tốc độ tối đa",
+                    "180"
+                ],
+                [
+                    "Chế độ lái (công suất cao/tiết kiệm nhiên liệu)",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống truyền động",
+                    "",
+                    "Dẫn động 2 cầu bán thời gian, gài cầu điện tử/Part-time 4WD, electronic transfer switch"
+                ],
+                [
+                    "Hộp số",
+                    "",
+                    "Số tự động 6 cấp/6AT"
+                ],
+                [
+                    "Hệ thống treo",
+                    "Trước",
+                    "Độc lập, tay đòn kép với thanh cân bằng/Double wishbone with torsion bar"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Phụ thuộc, liên kết 4 điểm/Four links with torsion bar"
+                ],
+                [
+                    "Hệ thống lái",
+                    "Trợ lực tay lái",
+                    "Thủy lực biến thiên theo tốc độ/Hydraulic (VFC)"
+                ],
+                [
+                    "",
+                    "Hệ thống tay lái tỉ số truyền biến thiên (VGRS)",
+                    "Không có/Without"
+                ],
+                [
+                    "Vành & lốp xe",
+                    "Loại vành",
+                    "Mâm đúc/Alloy"
+                ],
+                [
+                    "",
+                    "Kích thước lốp",
+                    "265/60R18"
+                ],
+                [
+                    "",
+                    "Lốp dự phòng",
+                    "Mâm đúc/Alloy"
+                ],
+                [
+                    "Phanh",
+                    "Trước",
+                    "Đĩa tản nhiệt/Ventilated disc"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Đĩa/Disc"
+                ],
+                [
+                    "Tiêu chuẩn khí thải",
+                    "",
+                    "Euro 4"
+                ],
+                [
+                    "Tiêu thụ nhiên liệu",
+                    "Trong đô thị (L/100km)",
+                    "7.32"
+                ],
+                [
+                    "",
+                    "Ngoài đô thị (L/100km)",
+                    "10.85"
+                ],
+                [
+                    "",
+                    "Kết hợp (L/100km)",
+                    "8.63"
+                ]
+            ]
+        },
+        {
+            "title": "Ngoại thất",
+            "href": "tab_dt_3",
+            "body": [
+                [
+                    "Cụm đèn trước",
+                    "Đèn chiếu gần",
+                    "LED"
+                ],
+                [
+                    "",
+                    "Đèn chiếu xa",
+                    "LED"
+                ],
+                [
+                    "",
+                    "Đèn chiếu sáng ban ngày",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Hệ thống điều khiển đèn tự động",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Hệ thống cân bằng góc chiếu",
+                    "Tự động/Auto (ALS)"
+                ],
+                [
+                    "",
+                    "Chế độ đèn chờ dẫn đường",
+                    "Có/With"
+                ],
+                [
+                    "Cụm đèn sau",
+                    "",
+                    "LED"
+                ],
+                [
+                    "Đèn báo phanh trên cao",
+                    "",
+                    "LED"
+                ],
+                [
+                    "Đèn sương mù",
+                    "Trước",
+                    "LED"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "LED"
+                ],
+                [
+                    "Gương chiếu hậu ngoài",
+                    "Chức năng điều chỉnh điện",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Chức năng gập điện",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Tích hợp đèn báo rẽ",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Tích hợp đèn chào mừng",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Màu",
+                    "Cùng màu thân xe/Colored"
+                ],
+                [
+                    "Gạt mưa",
+                    "Trước",
+                    "Gián đoạn, điều chỉnh thời gian/Intermittent & Time adjustment"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Có (gián đoạn)/With (intermittent)"
+                ],
+                [
+                    "Chức năng sấy kính sau",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Ăng ten",
+                    "",
+                    "Dạng vây cá/Shark fin"
+                ],
+                [
+                    "Tay nắm cửa ngoài",
+                    "",
+                    "Mạ crôm/Chrome plating"
+                ],
+                [
+                    "Bộ quây xe thể thao",
+                    "",
+                    "Không có/Without"
+                ],
+                [
+                    "Thanh cản (giảm va chạm)",
+                    "Trước",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Sau",
+                    "Có/With"
+                ],
+                [
+                    "Chắn bùn",
+                    "",
+                    "Trước + Sau/Front + Rear"
+                ],
+                [
+                    "Ống xả kép",
+                    "",
+                    "Không có/Without"
+                ]
+            ]
+        },
+        {
+            "title": "Nội thất",
+            "href": "tab_dt_4",
+            "body": [
+                [
+                    "Tay lái",
+                    "Loại tay lái",
+                    "3 chấu/3-spoke"
+                ],
+                [
+                    "",
+                    "Chất liệu",
+                    "Bọc da, ốp gỗ, mạ bạc/Leather, wood, silver ornamentation"
+                ],
+                [
+                    "",
+                    "Nút bấm điều khiển tích hợp",
+                    "Điều chỉnh âm thanh, màn hình hiển thị đa thông tin, đàm thoại rảnh tay, cảnh báo chệch làn đường/Audio switch, MID, hands-free phone, LDA"
+                ],
+                [
+                    "",
+                    "Điều chỉnh",
+                    "Chỉnh tay 4 hướng/Manual tilt & telescopic"
+                ],
+                [
+                    "",
+                    "Lẫy chuyển số",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Bộ nhớ vị trí",
+                    "Không có/Without"
+                ],
+                [
+                    "Gương chiếu hậu trong",
+                    "",
+                    "Chống chói tự động/EC"
+                ],
+                [
+                    "Tay nắm cửa trong",
+                    "",
+                    "Mạ crôm/Chrome plating"
+                ],
+                [
+                    "Cụm đồng hồ",
+                    "Loại đồng hồ",
+                    "Optitron"
+                ],
+                [
+                    "",
+                    "Đèn báo Eco",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Chức năng báo lượng tiêu thụ nhiên liệu",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Chức năng báo vị trí cần số",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Màn hình hiển thị đa thông tin",
+                    "Có (màn hình màu TFT 4.2\")/With (color TFT 4.2\")"
+                ]
+            ]
+        },
+        {
+            "title": "Ghế",
+            "href": "tab_dt_203",
+            "body": [
+                [
+                    "Chất liệu bọc ghế",
+                    "",
+                    "Da/Leather"
+                ],
+                [
+                    "Ghế trước",
+                    "Loại ghế",
+                    "Loại thể thao/Sport type"
+                ],
+                [
+                    "",
+                    "Điều chỉnh ghế lái",
+                    "Chỉnh điện 8 hướng/8 way power"
+                ],
+                [
+                    "",
+                    "Điều chỉnh ghế hành khách",
+                    "Chỉnh điện 8 hướng/8 way power"
+                ],
+                [
+                    "",
+                    "Bộ nhớ vị trí",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng thông gió",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Chức năng sưởi",
+                    "Không có/Without"
+                ],
+                [
+                    "Ghế sau",
+                    "Hàng ghế thứ hai",
+                    "Gập lưng ghế 60:40 một chạm, chỉnh cơ 4 hướng/60:40 split fold, manual slide & reclining"
+                ],
+                [
+                    "",
+                    "Hàng ghế thứ ba",
+                    "Ngả lưng ghế, gập 50:50 sang 2 bên/Manual reclining, 50:50 tumble, space up"
+                ],
+                [
+                    "",
+                    "Tựa tay hàng ghế sau",
+                    "Có/With"
+                ]
+            ]
+        },
+        {
+            "title": "Tiện nghi",
+            "href": "tab_dt_5",
+            "body": [
+                [
+                    "Hệ thống điều hòa",
+                    "",
+                    "Tự động, 2 giàn lạnh/Auto, dual cooler"
+                ],
+                [
+                    "Cửa gió sau",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hộp làm mát",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống âm thanh",
+                    "Đầu đĩa",
+                    "Màn hình cảm ứng 8\" navigation/8\" touch screen navigation"
+                ],
+                [
+                    "",
+                    "Số loa",
+                    "11 loa JBL"
+                ],
+                [
+                    "",
+                    "Cổng kết nối AUX",
+                    "Không có/Without"
+                ],
+                [
+                    "",
+                    "Cổng kết nối USB",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Kết nối Bluetooth",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Apple Car Play/Android Auto",
+                    "Có/With"
+                ],
+                [
+                    "Chìa khóa thông minh & Khởi động bằng nút bấm",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Khóa cửa điện",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Chức năng khóa cửa từ xa",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Cửa sổ điều chỉnh điện",
+                    "",
+                    "Có (1 chạm, chống kẹt tất cả các cửa)/With (Auto, jam protection for all windows)"
+                ],
+                [
+                    "Cốp điều khiển điện",
+                    "",
+                    "Mở cốp rảnh tay/Kick active"
+                ],
+                [
+                    "Hệ thống điều khiển hành trình",
+                    "",
+                    "Có/With"
+                ]
+            ]
+        },
+        {
+            "title": "An ninh",
+            "href": "tab_dt_8",
+            "body": [
+                [
+                    "Hệ thống báo động",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống mã hóa khóa động cơ",
+                    "",
+                    "Có/With"
+                ]
+            ]
+        },
+        {
+            "title": "An toàn chủ động",
+            "href": "tab_dt_6",
+            "body": [
+                [
+                    "Hệ thống an toàn Toyota (Toyota Safety Sense)",
+                    "Cảnh báo tiền va chạm (PCS)",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Cảnh báo chệch làn đường (LDA)",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Điều khiển hành trình chủ động (DRCC)",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống chống bó cứng phanh (ABS)",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống hỗ trợ lực phanh khẩn cấp (BA)",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống phân phối lực phanh điện tử (EBD)",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống cân bằng điện tử (VSC)",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống kiểm soát lực kéo (TRC)",
+                    "",
+                    "Có (A-TRC)/With (A-TRC)"
+                ],
+                [
+                    "Hệ thống hỗ trợ khởi hành ngang dốc (HAC)",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Hệ thống hỗ trợ đổ đèo (DAC)",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Đèn báo phanh khẩn cấp (EBS)",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Camera",
+                    "",
+                    "Camera 360"
+                ],
+                [
+                    "Cảm biến hỗ trợ đỗ xe",
+                    "Sau",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Góc trước",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Góc sau",
+                    "Có/With"
+                ]
+            ]
+        },
+        {
+            "title": "An toàn bị động",
+            "href": "tab_dt_7",
+            "body": [
+                [
+                    "Túi khí",
+                    "Túi khí người lái & hành khách phía trước",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Túi khí bên hông phía trước",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Túi khí rèm",
+                    "Có/With"
+                ],
+                [
+                    "",
+                    "Túi khí đầu gối người lái",
+                    "Có/With"
+                ],
+                [
+                    "Khung xe GOA",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Dây đai an toàn",
+                    "",
+                    "3 điểm ELR, 7 vị trí/3 points ELRx7"
+                ],
+                [
+                    "Ghế có cấu trúc giảm chấn thương cổ",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Cột lái tự đổ",
+                    "",
+                    "Có/With"
+                ],
+                [
+                    "Bàn đạp phanh tự đổ",
+                    "",
+                    "Có/With"
+                ]
+            ]
+        }
+    ],
+    "catalouge": [
+        {
+            "title": "Catalogue Fortuner",
+            "link": "../data/news/6497/ext/Fortuner Catalogue.pdf"
+        }
+    ]
+}
